@@ -4685,11 +4685,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\FitnessDL\\FitnessDL.csproj",
+      "projectUniqueName": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\FitnessDL.csproj",
       "projectName": "FitnessDL",
-      "projectPath": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\FitnessDL\\FitnessDL.csproj",
+      "projectPath": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\FitnessDL.csproj",
       "packagesPath": "C:\\Users\\Domie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\FitnessDL\\obj\\",
+      "outputPath": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Domie\\AppData\\Roaming\\NuGet\\NuGet.Config",

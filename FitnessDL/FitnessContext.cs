@@ -12,6 +12,7 @@ public class FitnessContext : DbContext
 {
     public DbSet<Members> Members;
     public DbSet<FitnessProgram> FitnessPrograms;
+    public DbSet<Reservation> Reservations;
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

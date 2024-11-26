@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\FitnessBL\\FitnessBL.csproj": {}
+    "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBL\\FitnessBL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\FitnessBL\\FitnessBL.csproj": {
+    "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBL\\FitnessBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\FitnessBL\\FitnessBL.csproj",
+        "projectUniqueName": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBL\\FitnessBL.csproj",
         "projectName": "FitnessBL",
-        "projectPath": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\FitnessBL\\FitnessBL.csproj",
+        "projectPath": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBL\\FitnessBL.csproj",
         "packagesPath": "C:\\Users\\Domie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\FitnessBL\\obj\\",
+        "outputPath": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Domie\\AppData\\Roaming\\NuGet\\NuGet.Config",

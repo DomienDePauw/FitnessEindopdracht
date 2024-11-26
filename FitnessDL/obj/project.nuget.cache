@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0FDMCCRlvdg=",
+  "dgSpecHash": "e9pHvD3Lwc8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\FitnessDL\\FitnessDL.csproj",
+  "projectFilePath": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\FitnessDL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Domie\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Domie\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
