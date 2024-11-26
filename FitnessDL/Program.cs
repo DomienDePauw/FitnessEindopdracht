@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            using (var context = new FitnessContext()) 
+            {
+                context.Database.EnsureDeleted();
+                context.Database.EnsureCreated();
+
+                Console.WriteLine("Database is opnieuw aangemaakt");
+            }
         }
     }
 }

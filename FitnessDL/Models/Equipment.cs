@@ -8,10 +8,10 @@ namespace FitnessDL.Models
 {
     public class Equipment
     {
-        public int Id { get; set; }
-        public ICollection<DeviceType> DeviceTypes { get; set; }
+        public int EquipmentId { get; set; }
+        public string DeviceType { get; set; } //Loopband of fiets, moet dit geen list zijn? 
+        public bool IsAvailable { get; set; }
         public ICollection<Reservation> Reservations { get; set; }
-        public string Description { get; set; }
 
     }
 }
