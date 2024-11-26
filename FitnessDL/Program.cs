@@ -1,16 +1,15 @@
-﻿namespace FitnessDL
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            using (var context = new FitnessContext()) 
-            {
-                context.Database.EnsureDeleted();
-                context.Database.EnsureCreated();
+﻿namespace FitnessDL;
 
-                Console.WriteLine("Database is opnieuw aangemaakt");
-            }
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        using (var context = new FitnessContext()) 
+        {
+            context.Database.EnsureDeleted();
+            context.Database.EnsureCreated();
+
+            Console.WriteLine("Database is opnieuw aangemaakt");
         }
     }
 }

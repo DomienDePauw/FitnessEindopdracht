@@ -5,16 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FitnessDL.Models
+namespace FitnessDL.Models;
+
+public class FitnessProgram
 {
-    public class FitnessProgram
-    {
-        [Key]
-        public string ProgramCode { get; set; }
-        public string Name { get; set; }
-        public string Target { get; set; }
-        public DateTime StartDate { get; set; }
-        public int MaxMembers { get; set; }
-        public ICollection<Member> Members { get; set; }
-    }
+    [Key]
+    public string ProgramCode { get; set; }
+    public string Name { get; set; }
+    public string Target { get; set; }
+    public DateTime StartDate { get; set; }
+    public int MaxMembers { get; set; }
+    public ICollection<Member> Members { get; set; }
 }

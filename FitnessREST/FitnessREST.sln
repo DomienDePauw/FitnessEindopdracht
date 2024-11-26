@@ -6,12 +6,15 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessREST", "FitnessREST.csproj", "{9A2378A5-5F3E-4034-8159-EF6604610ABE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessBL", "..\FitnessBL\FitnessBL.csproj", "{2E50CED9-616A-492E-B497-C3C5486F2C33}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F3DC0D59-B537-492B-9175-0A41AA78DE76} = {F3DC0D59-B537-492B-9175-0A41AA78DE76}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessDL", "..\FitnessDL\FitnessDL.csproj", "{F3DC0D59-B537-492B-9175-0A41AA78DE76}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{5E50890B-6FDD-4B90-8924-0AD5FC4DFE20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessClientWPFview", "..\FitnessClientWPFview\FitnessClientWPFview.csproj", "{795E4EBA-49AD-4DCA-A4B3-DED6CCD41144}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessClientWPFview", "..\FitnessClientWPFview\FitnessClientWPFview.csproj", "{795E4EBA-49AD-4DCA-A4B3-DED6CCD41144}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
