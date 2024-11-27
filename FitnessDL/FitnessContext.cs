@@ -10,11 +10,11 @@ namespace FitnessDL;
 
 public class FitnessContext : DbContext
 {
-    public DbSet<Member> Members;
-    public DbSet<FitnessProgram> FitnessProgram;
-    public DbSet<Reservation> Reservation;
-    public DbSet<TimeSlot> TimeSlot;
-    public DbSet<Equipment> Equipment;
+    public DbSet<Member> Members { get; set; }
+    public DbSet<FitnessProgram> FitnessProgram { get; set; }
+    public DbSet<Reservation> Reservation { get; set; }
+    public DbSet<TimeSlot> TimeSlot { get; set; }
+    public DbSet<Equipment> Equipment { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

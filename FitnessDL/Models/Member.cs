@@ -21,7 +21,7 @@ public class Member
     public string City { get; set; }
     [Required]
     public DateTime Birthday { get; set; }
-    public List<string> Interests { get; set; }
+    public List<string> Interests { get; set; } = new List<string>();
     [Required]
     public string MemberType { get; set; } //Hoe Label bepalen? Geen info in de opdracht? 
     public ICollection<FitnessProgram> FitnessPrograms { get; set; }

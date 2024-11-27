@@ -16,6 +16,8 @@ public class ReservationService
         _context = context;
     }
 
+
+
     //Mijn logica om een reservatie te maken 
 
     //Klanten kunnen deze toestellen reserveren, daarbij geven ze aan welk toestel ze wensen en wanneer (dag en tijdslot) dat ze dat wensen te gebruiken.
