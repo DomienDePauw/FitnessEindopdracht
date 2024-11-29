@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FitnessDL;
+﻿using FitnessDL;
 using FitnessDL.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,8 +13,8 @@ public class MemberRepository
     }
 
     //Task is awaitable als dit aan het lopen is kan je iets anders doen ondertussen.
-    public Task <List<Member>> GetAll() 
+    public Task<List<Member>> GetAll()
     {
-       return _context.Members.ToListAsync(); //Return TolistAsync geeft mij een Taks => List van member
+        return _context.Members.ToListAsync(); //Return TolistAsync geeft mij een Taks => List van member
     }
 }
