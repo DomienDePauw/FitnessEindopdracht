@@ -21,10 +21,12 @@ public class Member
     public string City { get; set; }
     [Required]
     public DateTime Birthday { get; set; }
-    public List<string> Interests { get; set; } = new List<string>();
+    public List<string>? Interests { get; set; }
     [Required]
-    public string MemberType { get; set; } //Hoe Label bepalen? Geen info in de opdracht? 
+    public MemberType MemberType { get; set; } //Hoe Label bepalen? Geen info in de opdracht? 
     public ICollection<FitnessProgram> FitnessPrograms { get; set; }
     public ICollection<Reservation> Reservations { get; set; }
+    public ICollection<CyclingSession> CyclingSessions { get; set; } //Member owned Cyclingsessions
+    public ICollection<RunningSession> RunningSessions { get; set; }
 
 }

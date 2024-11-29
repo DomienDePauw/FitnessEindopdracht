@@ -14,5 +14,4 @@ public class TimeSlot
     public DateTime StartTime { get; set; }
     public DateTime EndTime { get; set; }
     public string PartOfDay { get; set; }
-    public ICollection<Reservation> Reservations { get; set; }
 }

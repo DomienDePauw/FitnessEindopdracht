@@ -15,8 +15,12 @@ public class ReservationService
     {
         _context = context;
     }
+    //Splits de createreserv method op in stukjes zodat het niet te onoverzichtelinjk wordt.
 
+    public void CreateReservation() 
+    {
 
+    }
 
     //Mijn logica om een reservatie te maken 
 

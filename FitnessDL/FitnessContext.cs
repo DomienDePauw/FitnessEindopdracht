@@ -15,6 +15,9 @@ public class FitnessContext : DbContext
     public DbSet<Reservation> Reservation { get; set; }
     public DbSet<TimeSlot> TimeSlot { get; set; }
     public DbSet<Equipment> Equipment { get; set; }
+    public DbSet<RunningSession> RunningSession { get; set; }
+    public DbSet<RunningSessionDetail> RunningSessionDetail { get; set; }
+    public DbSet<CyclingSession> CyclingSession { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -27,23 +30,39 @@ public class FitnessContext : DbContext
             .ToTable("Members")
             .HasMany(m => m.FitnessPrograms)
             .WithMany(m => m.Members);
+        
 
-        modelBuilder.Entity<Reservation>()
-            .HasOne(r => r.Member)
-            .WithMany(m => m.Reservations)
-            .HasForeignKey(r => r.MemberId);
+        //Reservaties definiëren die zijn geowned door member dus hierbinnen configureren.
+        modelBuilder.Entity<Member>()
+            .OwnsMany(m => m.Reservations, ReservationBuilder =>
+            {
+                ReservationBuilder
+                .HasOne(r => r.Equipment)
+                .WithMany()
+                .HasForeignKey("EquipementId");
 
-        modelBuilder.Entity<Reservation>()
-            .HasOne(r => r.Equipment)
-            .WithMany(e => e.Reservations)
-            .HasForeignKey(r => r.EquipmentId);
+                ReservationBuilder
+                    .HasOne(r => r.TimeSlot)
+                    .WithMany()
+                    .HasForeignKey("TimeSlotId");
+                ReservationBuilder.WithOwner().HasForeignKey("MemberId");
 
-        modelBuilder.Entity<Reservation>()
-            .HasOne(r => r.TimeSlot)
-            .WithMany(ts => ts.Reservations)
-            .HasForeignKey(r => r.TimeSlotId);
+            });
 
         modelBuilder.Entity<FitnessProgram>()
             .ToTable("Program");
+
+        modelBuilder.Entity<Member>()
+             .OwnsMany(m => m.CyclingSessions)
+             .WithOwner().HasForeignKey("MemberId");
+
+
+        //OwnsMany => RunningSessionDetail kan niet bestaan zonder RunningSessions
+        //HasMany => Reference naar een ander object dat alleen kan bestaan
+        modelBuilder.Entity<Member>()
+            .OwnsMany(m => m.RunningSessions, RunningSessionBuilder => {
+                RunningSessionBuilder.OwnsMany(r => r.Details).WithOwner().HasForeignKey("RunningSessionId");
+                RunningSessionBuilder.WithOwner().HasForeignKey("MemberId");
+            });
     }
 }
