@@ -4,13 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessREST", "FitnessREST.csproj", "{9A2378A5-5F3E-4034-8159-EF6604610ABE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F3DC0D59-B537-492B-9175-0A41AA78DE76} = {F3DC0D59-B537-492B-9175-0A41AA78DE76}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessBeheerEFlayer", "..\FitnessDL\FitnessBeheerEFlayer.csproj", "{F3DC0D59-B537-492B-9175-0A41AA78DE76}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78} = {F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessBeheerDomain", "..\FitnessBeheerDomain\FitnessBeheerDomain.csproj", "{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessBeheerDomain", "..\FitnessBeheerDomain\FitnessBeheerDomain.csproj", "{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

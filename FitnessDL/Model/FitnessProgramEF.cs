@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace FitnessBeheerEFlayer.Model;
 
-public class ProgramEF
+public class FitnessProgramEF
 {
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

@@ -9,22 +9,9 @@ namespace FitnessBeheerEFlayer.Model;
 
 public class MemberEF
 {
-    public MemberEF(int memberId, string firstName, string lastName, string email, string city, DateTime birthday,
-        List<string>? interests, string memberType, ICollection<ProgramEF> fitnessPrograms, ICollection<ReservationEF> reservations, 
-        ICollection<CyclingSessionEF> cyclingSessions, ICollection<RunningSessionEF> runningSessions)
+    public MemberEF()
     {
-        MemberId = memberId;
-        FirstName = firstName;
-        LastName = lastName;
-        Email = email;
-        City = city;
-        Birthday = birthday;
-        Interests = interests;
-        MemberType = memberType;
-        FitnessPrograms = fitnessPrograms;
-        Reservations = reservations;
-        CyclingSessions = cyclingSessions;
-        RunningSessions = runningSessions;
+        
     }
 
     [Key]
@@ -42,7 +29,7 @@ public class MemberEF
     public List<string>? Interests { get; set; }
     [Required]
     public string MemberType { get; set; }
-    public ICollection<ProgramEF> FitnessPrograms { get; set; }
+    public ICollection<FitnessProgramEF> FitnessPrograms { get; set; }
     public ICollection<ReservationEF> Reservations { get; set; }
     public ICollection<CyclingSessionEF> CyclingSessions { get; set; }
     public ICollection<RunningSessionEF> RunningSessions { get; set; }

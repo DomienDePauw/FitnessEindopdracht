@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace FitnessBeheerDomain.Model;
-public class Program
+public class FitnessProgram
 {
     public string ProgramCode { get; set; } // Uniek ID
     public string Name { get; set; }

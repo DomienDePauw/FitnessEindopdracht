@@ -1,10 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FitnessBeheerDomain.Model;
+using FitnessBeheerEFlayer.Mappers;
+using FitnessBeheerEFlayer.Model;
 
-namespace FitnessBeheerEFlayer.Mappers;
-public class MapCyclingSession
+public static class MapCyclingSession
 {
+    public static CyclingSession MapToDomain(CyclingSessionEF db) => new CyclingSession
+    {
+        Id = db.CyclingSessionId,
+        Date = db.Date,
+        Duration = db.Duration,
+        AvgWatt = db.Avg_Watt,
+        MaxWatt = db.Max_Watt,
+        AvgCadence = db.Avg_Cadence,
+        MaxCadence = db.Max_Cadence,
+        TrainingType = db.TrainingType,
+        Comment = db.Comment,
+        Member = MapMember.MapToDomain(db.Member)
+    };
+
+    public static CyclingSessionEF MapToEF(CyclingSession domain) => new CyclingSessionEF
+    {
+        CyclingSessionId = domain.Id,
+        Date = domain.Date,
+        Duration = domain.Duration,
+        Avg_Watt = domain.AvgWatt,
+        Max_Watt = domain.MaxWatt,
+        Avg_Cadence = domain.AvgCadence,
+        Max_Cadence = domain.MaxCadence,
+        TrainingType = domain.TrainingType,
+        Comment = domain.Comment,
+        Member = MapMember.MapToEF(domain.Member)
+    };
 }

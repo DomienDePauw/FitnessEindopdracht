@@ -11,7 +11,7 @@ namespace FitnessBeheerEFlayer;
 public class FitnessContext : DbContext
 {
     public DbSet<MemberEF> members { get; set; }
-    public DbSet<ProgramEF> program { get; set; }
+    public DbSet<FitnessProgramEF> program { get; set; }
     public DbSet<ReservationEF> reservation { get; set; }
     public DbSet<TimeSlotEF> time_slot { get; set; }
     public DbSet<EquipmentEF> equipment { get; set; }

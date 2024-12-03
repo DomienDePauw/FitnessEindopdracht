@@ -1,3 +1,7 @@
+using FitnessBeheerDomain.Interfaces;
+using FitnessBeheerDomain.Services;
+using FitnessBeheerEFlayer;
+using FitnessBeheerEFlayer.Repositories;
 namespace FitnessREST;
 
 public class Program
@@ -10,15 +14,15 @@ public class Program
         {
             options.AddPolicy("AllowReactApp", policy =>
             {
-                policy.AllowAnyOrigin() // Gebruik de juiste URL (http of https)
+                policy.AllowAnyOrigin()
                       .AllowAnyMethod()
                       .AllowAnyHeader();
             });
         });
 
-        // Add services to the container.
         builder.Services.AddDbContext<FitnessContext>();
-        builder.Services.AddScoped<MemberRepository>();
+        builder.Services.AddScoped<IMemberRepository, MemberRepositoryEF>();
+        builder.Services.AddScoped<MemberService>();
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();

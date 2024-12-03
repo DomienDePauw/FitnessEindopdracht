@@ -1,10 +1,32 @@
-﻿using System;
+﻿using FitnessBeheerDomain.Model;
+using FitnessBeheerEFlayer.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace FitnessBeheerEFlayer.Mappers;
-internal class MapRunningSession
+public static class MapRunningSession
 {
+    public static RunningSession MapToDomain(RunningSessionEF ef) => new RunningSession
+    {
+        Id = ef.RunningSessionId,
+        Date = ef.Date,
+        Duration = ef.Duration,
+        AvgSpeed = ef.Avg_Speed,
+        Member = MapMember.MapToDomain(ef.Member),
+        Details = ef.Details?.Select(MapRunningSessionDetail.MapToDomain).ToList() ?? new List<RunningSessionDetail>()
+    };
+
+    public static RunningSessionEF MapToEF(RunningSession domain) => new RunningSessionEF
+    {
+        RunningSessionId = domain.Id,
+        Date = domain.Date,
+        Duration = domain.Duration,
+        Avg_Speed = domain.AvgSpeed,
+        Member = MapMember.MapToEF(domain.Member),
+        Details = domain.Details?.Select(MapRunningSessionDetail.MapToEF).ToList()
+    };
 }
+
