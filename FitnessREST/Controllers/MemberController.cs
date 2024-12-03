@@ -22,7 +22,6 @@ public class MemberController : ControllerBase
         return await _memberRepository.GetAll();
     }
 
-    //Id wordt meegegeven in de post en dat hoeft niet 
     [HttpPost]
     public IActionResult AddMember([FromBody] Member member)
     {
@@ -34,7 +33,6 @@ public class MemberController : ControllerBase
         _memberRepository.AddMember(member);
         return Ok(member);
     }
-
 
     [HttpPut]
     public IActionResult UpdateMember(int memberId, Member member) 
@@ -49,4 +47,6 @@ public class MemberController : ControllerBase
             return BadRequest(ex.Message);
         }
     }
+
+
 }

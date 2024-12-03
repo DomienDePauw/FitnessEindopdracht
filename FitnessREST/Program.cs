@@ -1,5 +1,3 @@
-using FitnessBL;
-using FitnessDL;
 namespace FitnessREST;
 
 public class Program
@@ -17,7 +15,6 @@ public class Program
                       .AllowAnyHeader();
             });
         });
-
 
         // Add services to the container.
         builder.Services.AddDbContext<FitnessContext>();

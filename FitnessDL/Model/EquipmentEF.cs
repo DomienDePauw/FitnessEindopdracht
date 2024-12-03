@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FitnessDL.Models;
+namespace FitnessBeheerEFlayer.Model;
 
-public class Equipment
+public class EquipmentEF
 {
     [Key]
     public int EquipmentId { get; set; }
     public List <string> DeviceType { get; set; } //Loopband of fiets, tot nu toee.
     public bool IsAvailable { get; set; }
-
+    public ICollection<ReservationEF> Reservations { get; set; }
 }

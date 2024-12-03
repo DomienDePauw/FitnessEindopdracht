@@ -5,11 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FitnessDL.Models;
+namespace FitnessBeheerEFlayer.Model;
 
-public class CyclingSession
+public class CyclingSessionEF
 {
-    //Required datanotations
     [Key]
     public int CyclingSessionId { get; set; }
     public DateTime Date { get; set; }
@@ -20,5 +19,5 @@ public class CyclingSession
     public int Max_Cadence { get; set; }
     public string TrainingType { get; set; }
     public string Comment { get; set; }
-
+    public MemberEF Member { get; set; }
 }

@@ -5,14 +5,12 @@ VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessREST", "FitnessREST.csproj", "{9A2378A5-5F3E-4034-8159-EF6604610ABE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessBL", "..\FitnessBL\FitnessBL.csproj", "{2E50CED9-616A-492E-B497-C3C5486F2C33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessBeheerEFlayer", "..\FitnessDL\FitnessBeheerEFlayer.csproj", "{F3DC0D59-B537-492B-9175-0A41AA78DE76}"
 	ProjectSection(ProjectDependencies) = postProject
-		{F3DC0D59-B537-492B-9175-0A41AA78DE76} = {F3DC0D59-B537-492B-9175-0A41AA78DE76}
+		{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78} = {F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessDL", "..\FitnessDL\FitnessDL.csproj", "{F3DC0D59-B537-492B-9175-0A41AA78DE76}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{5E50890B-6FDD-4B90-8924-0AD5FC4DFE20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessBeheerDomain", "..\FitnessBeheerDomain\FitnessBeheerDomain.csproj", "{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,14 +22,14 @@ Global
 		{9A2378A5-5F3E-4034-8159-EF6604610ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A2378A5-5F3E-4034-8159-EF6604610ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A2378A5-5F3E-4034-8159-EF6604610ABE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E50CED9-616A-492E-B497-C3C5486F2C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E50CED9-616A-492E-B497-C3C5486F2C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E50CED9-616A-492E-B497-C3C5486F2C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E50CED9-616A-492E-B497-C3C5486F2C33}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3DC0D59-B537-492B-9175-0A41AA78DE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F3DC0D59-B537-492B-9175-0A41AA78DE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3DC0D59-B537-492B-9175-0A41AA78DE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3DC0D59-B537-492B-9175-0A41AA78DE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

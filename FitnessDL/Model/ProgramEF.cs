@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FitnessDL.Models;
+namespace FitnessBeheerEFlayer.Model;
 
-public class FitnessProgram
+public class ProgramEF
 {
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -17,4 +17,5 @@ public class FitnessProgram
     public string Target { get; set; }
     public DateTime StartDate { get; set; }
     public int MaxMembers { get; set; }
+    public ICollection<MemberEF> Members { get; set; }
 }

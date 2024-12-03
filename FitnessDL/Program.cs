@@ -1,4 +1,4 @@
-﻿namespace FitnessDL;
+﻿namespace FitnessBeheerEFlayer;
 
 internal class Program
 {
