@@ -17,7 +17,7 @@ public class CyclingSession
     public int Avg_Watt { get; set; }
     public int Max_Watt { get; set; }
     public int Avg_Cadence { get; set; }
-    public int MAx_Cadence { get; set; }
+    public int Max_Cadence { get; set; }
     public string TrainingType { get; set; }
     public string Comment { get; set; }
 

@@ -29,7 +29,7 @@ public class FitnessContext : DbContext
         modelBuilder.Entity<Member>()
             .ToTable("Members")
             .HasMany(m => m.FitnessPrograms)
-            .WithMany(m => m.Members);
+            .WithMany();
         
 
         //Reservaties definiëren die zijn geowned door member dus hierbinnen configureren.

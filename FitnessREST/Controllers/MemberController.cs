@@ -21,4 +21,32 @@ public class MemberController : ControllerBase
     {
         return await _memberRepository.GetAll();
     }
+
+    //Id wordt meegegeven in de post en dat hoeft niet 
+    [HttpPost]
+    public IActionResult AddMember([FromBody] Member member)
+    {
+        if (member == null)
+        {
+            return BadRequest("Member cannot be null.");
+        }
+
+        _memberRepository.AddMember(member);
+        return Ok(member);
+    }
+
+
+    [HttpPut]
+    public IActionResult UpdateMember(int memberId, Member member) 
+    {
+        try
+        {
+            _memberRepository.UpdateMember(memberId, member);
+            return NoContent();
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
 }
