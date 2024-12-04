@@ -12,5 +12,5 @@ public class FitnessProgram
     public string Target { get; set; }
     public DateTime StartDate { get; set; }
     public int MaxMembers { get; set; }
-    public List<Member> Members { get; set; } = new List<Member>();
+    //public List<Member> Members { get; set; } = new List<Member>();
 }

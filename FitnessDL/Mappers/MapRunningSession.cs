@@ -11,22 +11,22 @@ public static class MapRunningSession
 {
     public static RunningSession MapToDomain(RunningSessionEF ef) => new RunningSession
     {
-        Id = ef.RunningSessionId,
+        Id = ef.Id,
         Date = ef.Date,
         Duration = ef.Duration,
         AvgSpeed = ef.Avg_Speed,
-        Member = MapMember.MapToDomain(ef.Member),
-        Details = ef.Details?.Select(MapRunningSessionDetail.MapToDomain).ToList() ?? new List<RunningSessionDetail>()
+        //Member = MapMember.MapToDomain(ef.Member),
+        //Details = ef.Details?.Select(MapRunningSessionDetail.MapToDomain).ToList() ?? new List<RunningSessionDetail>()
     };
 
     public static RunningSessionEF MapToEF(RunningSession domain) => new RunningSessionEF
     {
-        RunningSessionId = domain.Id,
+        Id = domain.Id,
         Date = domain.Date,
         Duration = domain.Duration,
         Avg_Speed = domain.AvgSpeed,
-        Member = MapMember.MapToEF(domain.Member),
-        Details = domain.Details?.Select(MapRunningSessionDetail.MapToEF).ToList()
+        //Member = MapMember.MapToEF(domain.Member),
+        //Details = domain.Details?.Select(MapRunningSessionDetail.MapToEF).ToList()
     };
 }
 

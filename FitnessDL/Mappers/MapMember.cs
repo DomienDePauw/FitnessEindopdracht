@@ -14,7 +14,7 @@ public static class MapMember
         try
         {
             return new Member(
-                db.MemberId,
+                db.Id,
                 db.FirstName,
                 db.LastName,
                 db.Email,
@@ -40,7 +40,7 @@ public static class MapMember
         {
             return new MemberEF
             {
-                MemberId = domain.Id,
+                Id = domain.Id,
                 FirstName = domain.FirstName,
                 LastName = domain.LastName,
                 Email = domain.Email,

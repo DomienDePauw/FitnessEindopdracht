@@ -19,7 +19,7 @@ public static class MapFitnessProgram
             Target = db.Target,
             StartDate = db.StartDate,
             MaxMembers = db.MaxMembers,
-            Members = db.Members?.Select(MapMember.MapToDomain).ToList() ?? new List<Member>()
+            //Members = db.Members?.Select(MapMember.MapToDomain).ToList() ?? new List<Member>()
         };
     }
 
@@ -32,7 +32,7 @@ public static class MapFitnessProgram
             Target = domain.Target,
             StartDate = domain.StartDate,
             MaxMembers = domain.MaxMembers,
-            Members = domain.Members?.Select(MapMember.MapToEF).ToList() ?? new List<MemberEF>()
+            //Members = domain.Members?.Select(MapMember.MapToEF).ToList() ?? new List<MemberEF>()
         };
     }
 }

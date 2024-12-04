@@ -17,9 +17,9 @@ public static class MapRunningSessionDetail
             SequenceNumber = db.Seq_nr,
             IntervalTime = db.Interval_Time,
             IntervalSpeed = db.Interval_Speed,
-            RunningSession = db.RunningSession != null
-                ? MapRunningSession.MapToDomain(db.RunningSession)
-                : null
+            //RunningSession = db.RunningSession != null
+            //    ? MapRunningSession.MapToDomain(db.RunningSession)
+            //    : null
         };
     }
 
@@ -31,9 +31,9 @@ public static class MapRunningSessionDetail
             Seq_nr = domain.SequenceNumber,
             Interval_Time = domain.IntervalTime,
             Interval_Speed = domain.IntervalSpeed,
-            RunningSession = domain.RunningSession != null
-                ? MapRunningSession.MapToEF(domain.RunningSession)
-                : null
+            //RunningSession = domain.RunningSession != null
+            //    ? MapRunningSession.MapToEF(domain.RunningSession)
+            //    : null
         };
     }
 }

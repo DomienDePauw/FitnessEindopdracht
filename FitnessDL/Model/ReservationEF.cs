@@ -11,7 +11,7 @@ namespace FitnessBeheerEFlayer.Model;
 public class ReservationEF
 {
     [Key]
-    public int ReservationId { get; set; }
+    public int Id { get; set; }
     public EquipmentEF Equipment { get; set; }
     public TimeSlotEF TimeSlot { get; set; }
     public DateTime Date { get; set; }

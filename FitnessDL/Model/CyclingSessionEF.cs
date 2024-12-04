@@ -10,7 +10,7 @@ namespace FitnessBeheerEFlayer.Model;
 public class CyclingSessionEF
 {
     [Key]
-    public int CyclingSessionId { get; set; }
+    public int Id { get; set; }
     public DateTime Date { get; set; }
     public int Duration { get; set; }
     public int Avg_Watt { get; set; }

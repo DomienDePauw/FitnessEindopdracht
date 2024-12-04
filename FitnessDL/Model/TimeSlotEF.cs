@@ -10,7 +10,7 @@ namespace FitnessBeheerEFlayer.Model;
 public class TimeSlotEF
 {
     [Key]
-    public int TimeSlotId { get; set; }
+    public int Id { get; set; }
     public DateTime StartTime { get; set; }
     public DateTime EndTime { get; set; }
     public string PartOfDay { get; set; }

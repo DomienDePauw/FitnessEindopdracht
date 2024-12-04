@@ -11,6 +11,6 @@ public class TimeSlot
     public DateTime StartTime { get; set; }
     public DateTime EndTime { get; set; }
     public string PartOfDay { get; set; }
-    public List<Reservation> Reservations { get; set; } = new();
+    //public List<Reservation> Reservations { get; set; } = new();
 }
 

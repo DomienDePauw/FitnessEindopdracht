@@ -4,6 +4,7 @@ using FitnessBeheerDomain.Model;
 using FitnessBeheerDomain.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using FitnessREST.DTO;
 
 namespace FitnessREST.Controllers;
 
@@ -19,23 +20,38 @@ public class MemberController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult CreateMember([FromBody] Member member)
+    public IActionResult CreateMember([FromBody] CreateMemberDTO memberDto)
     {
-        if (member == null)
+        if (memberDto == null)
         {
-            return BadRequest("Member cannot be null.");
+            return BadRequest("Member data is required.");
         }
 
-        _memberService.AddMember(member);
-        return Ok(member);
-    }
+        // Map DTO naar domeinmodel
+        var member = new Member(
+            id: 0, // Id wordt gegenereerd in de datalaag
+            firstName: memberDto.FirstName,
+            lastName: memberDto.LastName,
+            email: memberDto.Email,
+            city: memberDto.City,
+            birthday: memberDto.Birthday,
+            interests: memberDto.Interests ?? new List<string>(),
+            memberType: memberDto.MemberType,
+            fitnessPrograms: new List<FitnessProgram>(),
+            reservations: new List<Reservation>(),
+            cyclingSessions: new List<CyclingSession>(),
+            runningSessions: new List<RunningSession>()
+        );
 
+        _memberService.AddMember(member); // Domeinmodel naar de service
+        return Ok("Member successfully added.");
+    }
     //[HttpPut]
-    //public IActionResult UpdateMember(int memberId, Member member) 
+    //public IActionResult UpdateMember(int memberId, Member member)
     //{
     //    try
     //    {
-    //        _memberRepository.UpdateMember(memberId, member);
+    //        _memberService.UpdateMember(memberId, member);
     //        return NoContent();
     //    }
     //    catch (Exception ex)

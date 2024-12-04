@@ -11,7 +11,7 @@ public class RunningSession
     public DateTime Date { get; set; }
     public int Duration { get; set; }
     public int AvgSpeed { get; set; }
-    public Member Member { get; set; }
-    public List<RunningSessionDetail> Details { get; set; } = new();
+    //public Member Member { get; set; }
+    //public List<RunningSessionDetail> Details { get; set; } = new();
 }
 

@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FitnessBeheerDomain.Model;
 
-namespace FitnessBeheerDomain.Model;
-public class CyclingSession
+namespace FitnessREST.DTO;
+public class CyclingSessionDTO
 {
     public int Id { get; set; }
     public DateTime Date { get; set; }
@@ -16,5 +12,5 @@ public class CyclingSession
     public int MaxCadence { get; set; }
     public string TrainingType { get; set; }
     public string Comment { get; set; }
-    //public Member Member { get; set; }
+    public Member Member { get; set; }
 }

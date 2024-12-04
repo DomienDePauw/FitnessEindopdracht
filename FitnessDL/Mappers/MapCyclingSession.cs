@@ -6,7 +6,7 @@ public static class MapCyclingSession
 {
     public static CyclingSession MapToDomain(CyclingSessionEF db) => new CyclingSession
     {
-        Id = db.CyclingSessionId,
+        Id = db.Id,
         Date = db.Date,
         Duration = db.Duration,
         AvgWatt = db.Avg_Watt,
@@ -15,12 +15,12 @@ public static class MapCyclingSession
         MaxCadence = db.Max_Cadence,
         TrainingType = db.TrainingType,
         Comment = db.Comment,
-        Member = MapMember.MapToDomain(db.Member)
+        //Member = MapMember.MapToDomain(db.Member)
     };
 
     public static CyclingSessionEF MapToEF(CyclingSession domain) => new CyclingSessionEF
     {
-        CyclingSessionId = domain.Id,
+        Id = domain.Id,
         Date = domain.Date,
         Duration = domain.Duration,
         Avg_Watt = domain.AvgWatt,
@@ -29,6 +29,6 @@ public static class MapCyclingSession
         Max_Cadence = domain.MaxCadence,
         TrainingType = domain.TrainingType,
         Comment = domain.Comment,
-        Member = MapMember.MapToEF(domain.Member)
+        //Member = MapMember.MapToEF(domain.Member)
     };
 }

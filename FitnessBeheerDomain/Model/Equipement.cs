@@ -10,6 +10,6 @@ public class Equipment
     public int Id { get; set; }
     public List<string> DeviceTypes { get; set; } = new ();
     public bool IsAvailable { get; set; }
-    public List<Reservation> Reservations { get; set; } = new();
+    //public List<Reservation> Reservations { get; set; } = new();
 }
 

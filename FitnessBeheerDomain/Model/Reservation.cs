@@ -11,6 +11,6 @@ public class Reservation
     public Equipment Equipment { get; set; }
     public TimeSlot TimeSlot { get; set; }
     public DateTime Date { get; set; }
-    public Member Member { get; set; }
+    //public Member Member { get; set; }
 }
 
