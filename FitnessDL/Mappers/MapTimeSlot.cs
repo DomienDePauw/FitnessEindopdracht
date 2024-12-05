@@ -9,22 +9,16 @@ using System.Threading.Tasks;
 namespace FitnessBeheerEFlayer.Mappers;
 public static class MapTimeSlot
 {
-    public static TimeSlot MapToDomain(TimeSlotEF db) => new TimeSlot
-    {
-        Id = db.Id,
-        StartTime = db.StartTime,
-        EndTime = db.EndTime,
-        PartOfDay = db.PartOfDay,
-        //Reservations = db.Reservations?.Select(MapReservation.MapToDomain).ToList() ?? new List<Reservation>()
-    };
+    public static TimeSlot MapToDomain(TimeSlotEF db) => new TimeSlot(db.Id, db.StartTime);
 
     public static TimeSlotEF MapToEF(TimeSlot domain) => new TimeSlotEF
     {
         Id = domain.Id,
         StartTime = domain.StartTime,
         EndTime = domain.EndTime,
-        PartOfDay = domain.PartOfDay,
-        //Reservations = domain.Reservations?.Select(MapReservation.MapToEF).ToList()
+        PartOfDay = domain.PartOfDay
     };
 }
+
+
 

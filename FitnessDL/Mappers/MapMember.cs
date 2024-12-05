@@ -21,7 +21,7 @@ public static class MapMember
                 db.City,
                 db.Birthday,
                 db.Interests ?? new List<string>(),
-                Enum.Parse<MemberType>(db.MemberType), // Aangezien dit nu een string is in EF en enum in domein
+                Enum.Parse<MemberType>(db.MemberType),
                 db.FitnessPrograms?.Select(MapFitnessProgram.MapToDomain).ToList() ?? new List<FitnessProgram>(),
                 db.Reservations?.Select(MapReservation.MapToDomain).ToList() ?? new List<Reservation>(),
                 db.CyclingSessions?.Select(MapCyclingSession.MapToDomain).ToList() ?? new List<CyclingSession>(),

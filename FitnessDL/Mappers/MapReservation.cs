@@ -9,22 +9,22 @@ using System.Threading.Tasks;
 namespace FitnessBeheerEFlayer.Mappers;
 public static class MapReservation
 {
-    public static Reservation MapToDomain(ReservationEF db) => new Reservation
-    {
-        Id = db.Id,
-        Equipment = MapEquipment.MapToDomain(db.Equipment),
-        TimeSlot = MapTimeSlot.MapToDomain(db.TimeSlot),
-        Date = db.Date,
-        //Member = MapMember.MapToDomain(db.Member)
-    };
+    public static Reservation MapToDomain(ReservationEF db) =>
+        new Reservation(
+        db.Id,
+        db.MemberId,
+        db.EquipmentId,
+        db.TimeSlots.Select(MapTimeSlot.MapToDomain).ToList(),
+        db.Date);
 
     public static ReservationEF MapToEF(Reservation domain) => new ReservationEF
     {
         Id = domain.Id,
-        Equipment = MapEquipment.MapToEF(domain.Equipment),
-        TimeSlot = MapTimeSlot.MapToEF(domain.TimeSlot),
-        Date = domain.Date,
-       // Member = MapMember.MapToEF(domain.Member)
+        MemberId = domain.MemberId,
+        EquipmentId = domain.EquipmentId,
+        TimeSlots = domain.TimeSlots.Select(MapTimeSlot.MapToEF).ToList(),
+        Date = domain.ReservationDate
     };
 }
+
 

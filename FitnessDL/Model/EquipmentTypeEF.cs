@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FitnessBeheerDomain.Model;
-public class Equipment
+namespace FitnessBeheerEFlayer.Model;
+public class EquipmentTypeEF
 {
     public int Id { get; set; }
-    public EquipmentType Type { get; set; }
-    public bool IsAvailable { get; set; }
+    public string Name { get; set; }
+    public string Description { get; set; }
 }
-

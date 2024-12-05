@@ -11,7 +11,7 @@ public class EquipmentEF
 {
     [Key]
     public int Id { get; set; }
-    public List <string> DeviceType { get; set; } //Loopband of fiets, tot nu toee.
+    public EquipmentTypeEF Type { get; set; }
     public bool IsAvailable { get; set; }
     public ICollection<ReservationEF> Reservations { get; set; }
 }
