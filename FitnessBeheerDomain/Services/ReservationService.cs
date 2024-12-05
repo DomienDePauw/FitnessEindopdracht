@@ -16,7 +16,6 @@ public class ReservationService
     {
         _reservationRepository = reservationRepository;
     }
-
     public void AddReservation(Reservation reservation)
     {
         ValidateReservation(reservation);
@@ -52,7 +51,6 @@ public class ReservationService
         }
         return true;
     }
-
     private void ValidateReservation(Reservation reservation)
     {
         if (reservation.ReservationDate < DateOnly.FromDateTime(DateTime.Now)) 

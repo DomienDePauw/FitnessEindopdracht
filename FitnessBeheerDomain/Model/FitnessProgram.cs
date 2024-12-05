@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace FitnessBeheerDomain.Model;
 public class FitnessProgram
 {
-    public string ProgramCode { get; set; } // Uniek ID
+    public string ProgramCode { get; set; }
     public string Name { get; set; }
     public string Target { get; set; }
     public DateTime StartDate { get; set; }

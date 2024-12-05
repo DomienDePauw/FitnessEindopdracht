@@ -8,5 +8,7 @@ using System.Threading.Tasks;
 namespace FitnessBeheerDomain.Interfaces;
 public interface IMemberRepository
 {
-    public void AddMember(Member member);
+    void AddMember(Member member);
+    Member GetMemberById(int memberId);
+    void UpdateMember(int memberId, Member updatedMember);
 }

@@ -1,9 +1,6 @@
 ﻿using FitnessBeheerDomain.Model;
-using FitnessBeheerEFlayer.Model;
 using FitnessBeheerEFlayer.Exceptions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using FitnessBeheerEFlayer.Model;
 
 namespace FitnessBeheerEFlayer.Mappers;
 
@@ -47,11 +44,16 @@ public static class MapMember
                 City = domain.City,
                 Birthday = domain.Birthday,
                 Interests = domain.Interests,
-                MemberType = domain.MemberType.ToString(), // Enum naar string
-                FitnessPrograms = domain.FitnessPrograms?.Select(MapFitnessProgram.MapToEF).ToList() ?? new List<FitnessProgramEF>(),
-                Reservations = domain.Reservations?.Select(MapReservation.MapToEF).ToList() ?? new List<ReservationEF>(),
-                CyclingSessions = domain.CyclingSessions?.Select(MapCyclingSession.MapToEF).ToList() ?? new List<CyclingSessionEF>(),
-                RunningSessions = domain.RunningSessions?.Select(MapRunningSession.MapToEF).ToList() ?? new List<RunningSessionEF>()
+                MemberType = domain.MemberType.ToString(),
+                Reservations = domain.Reservations
+                                .Select(MapReservation.MapToEF)
+                                .ToList(),
+                CyclingSessions = domain.CyclingSessions
+                                .Select(MapCyclingSession.MapToEF)
+                                .ToList(),
+                RunningSessions = domain.RunningSessions
+                                .Select(MapRunningSession.MapToEF)
+                                .ToList(),
             };
         }
         catch (Exception ex)

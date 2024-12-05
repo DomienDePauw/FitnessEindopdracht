@@ -19,17 +19,15 @@ public class MemberController : ControllerBase
         _memberService = memberService;
     }
 
-    [HttpPost]
-    public IActionResult CreateMember([FromBody] CreateMemberDTO memberDto)
+    [HttpPost("AddMember")]
+    public IActionResult CreateMember([FromBody] MemberDTO memberDto)
     {
         if (memberDto == null)
         {
             return BadRequest("Member data is required.");
         }
-
-        // Map DTO naar domeinmodel
         var member = new Member(
-            id: 0, // Id wordt gegenereerd in de datalaag
+            id: 0,
             firstName: memberDto.FirstName,
             lastName: memberDto.LastName,
             email: memberDto.Email,
@@ -42,23 +40,39 @@ public class MemberController : ControllerBase
             cyclingSessions: new List<CyclingSession>(),
             runningSessions: new List<RunningSession>()
         );
-
-        _memberService.AddMember(member); // Domeinmodel naar de service
+        _memberService.AddMember(member);
         return Ok("Member successfully added.");
     }
-    //[HttpPut]
-    //public IActionResult UpdateMember(int memberId, Member member)
-    //{
-    //    try
-    //    {
-    //        _memberService.UpdateMember(memberId, member);
-    //        return NoContent();
-    //    }
-    //    catch (Exception ex)
-    //    {
-    //        return BadRequest(ex.Message);
-    //    }
-    //}
+    [HttpPut("UpdateMember/{id}")]
+    public IActionResult UpdateMember(int memberId, MemberDTO memberDto)
+    {
+        if (memberDto == null)
+        {
+            return BadRequest("Member data is required.");
+        }
 
+        try
+        {
+            var existingMember = _memberService.GetMemberById(memberId);
+            if (existingMember == null)
+            {
+                return NotFound($"Member with ID {memberId} not found.");
+            }
 
+            existingMember.FirstName = memberDto.FirstName;
+            existingMember.LastName = memberDto.LastName;
+            existingMember.Email = memberDto.Email;
+            existingMember.City = memberDto.City;
+            existingMember.Birthday = memberDto.Birthday;
+            existingMember.Interests = memberDto.Interests ?? new List<string>();
+            existingMember.MemberType = memberDto.MemberType;
+            _memberService.UpdateMember(memberId,existingMember);
+            
+            return NoContent();
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"An error occurred: {ex.Message}");
+        }
+    }
 }

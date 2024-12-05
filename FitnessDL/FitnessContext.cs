@@ -18,6 +18,7 @@ public class FitnessContext : DbContext
     public DbSet<RunningSessionEF> runningsession_main { get; set; }
     public DbSet<RunningSessionDetailEF> runningsession_detail { get; set; }
     public DbSet<CyclingSessionEF> cyclingsession { get; set; }
+    public DbSet<EquipmentTypeEF> equipment_type { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

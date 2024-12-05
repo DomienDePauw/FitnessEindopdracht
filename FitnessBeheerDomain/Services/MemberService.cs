@@ -20,4 +20,14 @@ public class MemberService
     {
         _repository.AddMember(member);
     }
+
+    public Member GetMemberById(int memberId)
+    {
+        return _repository.GetMemberById(memberId);
+    }
+
+    public void UpdateMember(int memberId, Member member)
+    {
+        _repository.UpdateMember(memberId, member);
+    }
 }

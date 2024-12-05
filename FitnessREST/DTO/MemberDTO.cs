@@ -1,7 +1,7 @@
 ﻿using FitnessBeheerDomain.Model;
 
 namespace FitnessREST.DTO;
-public class CreateMemberDTO
+public class MemberDTO
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }

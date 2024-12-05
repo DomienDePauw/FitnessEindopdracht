@@ -16,5 +16,4 @@ public class CyclingSession
     public int MaxCadence { get; set; }
     public string TrainingType { get; set; }
     public string Comment { get; set; }
-    //public Member Member { get; set; }
 }

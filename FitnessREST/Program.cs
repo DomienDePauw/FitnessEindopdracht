@@ -23,6 +23,8 @@ public class Program
         builder.Services.AddDbContext<FitnessContext>();
         builder.Services.AddScoped<IMemberRepository, MemberRepositoryEF>();
         builder.Services.AddScoped<MemberService>();
+        builder.Services.AddScoped<IEquipmentRepository, EquipmentRepositoryEF>();
+        builder.Services.AddScoped<EquipmentService>();
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
