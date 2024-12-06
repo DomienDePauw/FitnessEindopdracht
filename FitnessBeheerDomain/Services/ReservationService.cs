@@ -21,6 +21,17 @@ public class ReservationService
         ValidateReservation(reservation);
         _reservationRepository.AddReservation(reservation);
     }
+
+    //public void DeleteReservation(int reservationId)
+    //{
+    //    throw new NotImplementedException();
+    //}
+
+    //public object GetReservationById(int reservationId)
+    //{
+    //    throw new NotImplementedException();
+    //}
+
     public bool ValidateTimeSlot(List<Reservation> reservations)
     {
         var equipmentGroups = reservations.ToDictionary(r => r.EquipmentId, r => r.TimeSlots);

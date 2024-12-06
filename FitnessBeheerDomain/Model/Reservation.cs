@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace FitnessBeheerDomain.Model;
@@ -14,6 +15,7 @@ public class Reservation
     public List<TimeSlot> TimeSlots { get; private set; } = new List<TimeSlot>();
     public DateOnly ReservationDate { get; private set; }
 
+    [JsonConstructor]
     public Reservation(int memberId, int equipmentId, List<TimeSlot> timeSlots, DateOnly reservationDate)
     {
         if (timeSlots.Count > 2)

@@ -13,7 +13,6 @@ public static class MapTimeSlot
 
     public static TimeSlotEF MapToEF(TimeSlot domain) => new TimeSlotEF
     {
-        Id = domain.Id,
         StartTime = domain.StartTime,
         EndTime = domain.EndTime,
         PartOfDay = domain.PartOfDay

@@ -25,6 +25,8 @@ public class Program
         builder.Services.AddScoped<MemberService>();
         builder.Services.AddScoped<IEquipmentRepository, EquipmentRepositoryEF>();
         builder.Services.AddScoped<EquipmentService>();
+        builder.Services.AddScoped<IReservationRepository, ReservationRepositoryEF>();
+        builder.Services.AddScoped<ReservationService>();
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();

@@ -35,7 +35,7 @@ public class MemberController : ControllerBase
             birthday: memberDto.Birthday,
             interests: memberDto.Interests ?? new List<string>(),
             memberType: memberDto.MemberType,
-            fitnessPrograms: new List<FitnessProgram>(),
+            fitnessPrograms: new List<FitnessProgram>(), 
             reservations: new List<Reservation>(),
             cyclingSessions: new List<CyclingSession>(),
             runningSessions: new List<RunningSession>()
