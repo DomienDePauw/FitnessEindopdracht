@@ -11,20 +11,25 @@ public static class MapReservation
 {
     public static Reservation MapToDomain(ReservationEF db) =>
         new Reservation(
+        db.EquipmentId,
         db.Id,
         db.MemberId,
-        db.EquipmentId,
         db.TimeSlots.Select(MapTimeSlot.MapToDomain).ToList(),
         db.Date);
 
-    public static ReservationEF MapToEF(Reservation domain) => new ReservationEF
+    public static ReservationEF MapToEF(Reservation reservation)
     {
-        Id = domain.Id,
-        MemberId = domain.MemberId,
-        EquipmentId = domain.EquipmentId,
-        TimeSlots = domain.TimeSlots.Select(MapTimeSlot.MapToEF).ToList(),
-        Date = domain.ReservationDate
-    };
+        return new ReservationEF
+        {
+            Id = reservation.Id,
+            EquipmentId = reservation.EquipmentId,
+            MemberId = reservation.MemberId,
+            Date = reservation.ReservationDate,
+            TimeSlots = reservation.TimeSlots
+                .Select(MapTimeSlot.MapToEF)
+                .ToList()
+        };
+    }
 }
 
 

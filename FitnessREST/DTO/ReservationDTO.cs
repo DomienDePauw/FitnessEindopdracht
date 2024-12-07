@@ -4,8 +4,10 @@ namespace FitnessREST.DTO;
 public class ReservationDTO
 {
     public int Id { get; set; }
-    public Equipment Equipment { get; set; }
-    public TimeSlot TimeSlot { get; set; }
-    public DateTime Date { get; set; }
-    public Member Member { get; set; }
+    public int MemberId { get; set; }
+    public int EquipmentId { get; set; } 
+    public List<TimeSlotDTO> TimeSlots { get; set; }
+    public DateOnly ReservationDate { get; set; }
 }
+
+

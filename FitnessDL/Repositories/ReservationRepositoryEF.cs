@@ -4,6 +4,7 @@ using FitnessBeheerEFlayer.Mappers;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,13 +24,23 @@ public class ReservationRepositoryEF : IReservationRepository
         _context.SaveChanges();
     }
 
+    public List<Reservation> GetReservationsByDateAndMember(DateOnly date, int memberId)
+    {
+        var reservations = _context.reservation
+            .Include(r => r.TimeSlots)
+            .Where(r => r.Date == date && r.MemberId == memberId) 
+            .Select(r => MapReservation.MapToDomain(r))
+            .ToList();
+        return reservations;
+    }
 
     public List<Reservation> GetReservationsByDate(DateOnly date)
     {
-        return _context.reservation
-            .Where(r => r.Date == date)
+        var reservations = _context.reservation
             .Include(r => r.TimeSlots)
+            .Where(r => r.Date == date)
             .Select(r => MapReservation.MapToDomain(r))
             .ToList();
+        return reservations;
     }
 }

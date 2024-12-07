@@ -27,6 +27,5 @@ public class FitnessContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        
     }
 }

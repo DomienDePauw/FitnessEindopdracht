@@ -1,10 +1,7 @@
-﻿
-using FitnessBeheerDomain.Interfaces;
-using FitnessBeheerDomain.Model;
+﻿using FitnessBeheerDomain.Model;
 using FitnessBeheerDomain.Services;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 using FitnessREST.DTO;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FitnessREST.Controllers;
 
@@ -20,12 +17,22 @@ public class ReservationController : ControllerBase
     }
 
     [HttpPost("AddReservation")]
-    public IActionResult CreateReservation([FromBody] Reservation reservation)
+    public IActionResult CreateReservation([FromBody] ReservationDTO reservationDto)
     {
-        if (reservation == null)
+        if (reservationDto == null)
         {
             return BadRequest("Reservation data is required.");
         }
+
+        var reservation = new Reservation(
+                                    id: 0,
+                                    memberId: reservationDto.MemberId,
+                                    equipmentId: reservationDto.EquipmentId,
+                                    timeSlots: reservationDto.TimeSlots.Select(ts => new TimeSlot(
+                                    id: ts.Id,
+                                    startTime: ts.StartTime
+                                    )).ToList(),
+                                    reservationDate: reservationDto.ReservationDate);
         _reservationService.AddReservation(reservation);
         return Ok("Reservation successfully added.");
     }

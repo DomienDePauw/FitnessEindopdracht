@@ -22,69 +22,22 @@ public class ReservationService
         _reservationRepository.AddReservation(reservation);
     }
 
-    //public void DeleteReservation(int reservationId)
-    //{
-    //    throw new NotImplementedException();
-    //}
-
-    //public object GetReservationById(int reservationId)
-    //{
-    //    throw new NotImplementedException();
-    //}
-
-    public bool ValidateTimeSlot(List<Reservation> reservations)
-    {
-        var equipmentGroups = reservations.ToDictionary(r => r.EquipmentId, r => r.TimeSlots);
-        foreach (var equipmentGroup in equipmentGroups)
-        {
-            TimeOnly? previousStartTime = null;
-            var successiveTimeSlots = 1;
-            foreach (var timeslot in equipmentGroup.Value.OrderBy(s => s.StartTime))
-            {
-                if (previousStartTime == null)
-                {
-                    previousStartTime = timeslot.StartTime;
-                }
-                else
-                {
-                    if (timeslot.StartTime == previousStartTime?.AddHours(1))
-                    {
-                        successiveTimeSlots++;
-
-                        if (successiveTimeSlots > 2)
-                        {
-                            return false;
-                        }
-                    }
-                    else successiveTimeSlots = 1;
-                }
-            }
-        }
-        return true;
-    }
     private void ValidateReservation(Reservation reservation)
     {
-        if (reservation.ReservationDate < DateOnly.FromDateTime(DateTime.Now)) 
+        if (reservation.ReservationDate < DateOnly.FromDateTime(DateTime.Now))
         {
-            throw new ReservationException("Moet in de toekomst liggen");
+            throw new ReservationException("The reservation must be in the future.");
         }
+
         if (reservation.ReservationDate > DateOnly.FromDateTime(DateTime.Now).AddDays(7))
         {
-            throw new ReservationException("Mag maximaal 7 dagen in de toekomst liggen");
+            throw new ReservationException("The reservation cannot be more than 7 days in the future.");
         }
-        var existingReservations = _reservationRepository
-            .GetReservationsByDate(reservation.ReservationDate);
 
-        var memberReservations = existingReservations
-            .Where(r => r.MemberId == reservation.MemberId);
-
-        var totalReservations = memberReservations.ToList();
-        totalReservations.Add(reservation);
-
-        if (!ValidateTimeSlot(totalReservations)) 
-        {
-            throw new ReservationException("");
-        }
+        var memberReservations = _reservationRepository.GetReservationsByDateAndMember(
+            reservation.ReservationDate,
+            reservation.MemberId
+        );
 
         var totalSlotsForMember = memberReservations
             .SelectMany(r => r.TimeSlots)
@@ -95,7 +48,7 @@ public class ReservationService
             throw new ReservationException("A member can only reserve up to 4 time slots per day.");
         }
 
-        foreach (var existing in existingReservations.Where(r => r.EquipmentId == reservation.EquipmentId))
+        foreach (var existing in memberReservations.Where(r => r.EquipmentId == reservation.EquipmentId))
         {
             foreach (var slot in reservation.TimeSlots)
             {
@@ -105,6 +58,47 @@ public class ReservationService
                 }
             }
         }
+
+        var allReservationsForDate = _reservationRepository.GetReservationsByDate(reservation.ReservationDate);
+        if (!ValidateTimeSlot(allReservationsForDate.Concat(new[] { reservation }).ToList()))
+        {
+            throw new ReservationException("Cannot reserve more than 2 consecutive time slots for the same equipment.");
+        }
+    }
+
+
+    public bool ValidateTimeSlot(List<Reservation> reservations)
+    {
+        var equipmentGroups = reservations
+            .GroupBy(r => new { r.EquipmentId, r.ReservationDate })
+            .ToDictionary(g => g.Key, g => g.SelectMany(r => r.TimeSlots).OrderBy(s => s.StartTime).ToList()); // Opeenvolgende tijdslots ordenen
+
+        foreach (var equipmentGroup in equipmentGroups)
+        {
+            int successiveTimeSlots = 1;
+
+            for (int i = 1; i < equipmentGroup.Value.Count; i++)
+            {
+                var previousSlot = equipmentGroup.Value[i - 1];
+                var currentSlot = equipmentGroup.Value[i];
+
+                if (currentSlot.StartTime == previousSlot.StartTime.AddHours(1))
+                {
+                    successiveTimeSlots++;
+                }
+                else
+                {
+                    successiveTimeSlots = 1;
+                }
+
+                if (successiveTimeSlots > 2)
+                {
+                    return false;
+                }
+            }
+        }
+
+        return true;
     }
 }
 
