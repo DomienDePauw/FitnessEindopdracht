@@ -19,10 +19,10 @@ public class Reservation
     }
 
     public int Id { get; private set; }
-    public int MemberId { get; private set; }
-    public int EquipmentId { get; private set; }
-    public List<TimeSlot> TimeSlots { get; private set; } = new List<TimeSlot>();
-    public DateOnly ReservationDate { get; private set; }
+    public int MemberId { get; set; }
+    public int EquipmentId { get;  set; }
+    public List<TimeSlot> TimeSlots { get; set; } = new List<TimeSlot>();
+    public DateOnly ReservationDate { get; set; }
 }
 
 

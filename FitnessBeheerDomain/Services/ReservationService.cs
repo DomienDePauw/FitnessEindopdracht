@@ -21,6 +21,10 @@ public class ReservationService
         ValidateReservation(reservation);
         _reservationRepository.AddReservation(reservation);
     }
+    public void DeleteReservation(int id)
+    {
+        _reservationRepository.DeleteReservation(id);
+    }
 
     private void ValidateReservation(Reservation reservation)
     {
@@ -66,12 +70,11 @@ public class ReservationService
         }
     }
 
-
     public bool ValidateTimeSlot(List<Reservation> reservations)
     {
         var equipmentGroups = reservations
             .GroupBy(r => new { r.EquipmentId, r.ReservationDate })
-            .ToDictionary(g => g.Key, g => g.SelectMany(r => r.TimeSlots).OrderBy(s => s.StartTime).ToList()); // Opeenvolgende tijdslots ordenen
+            .ToDictionary(g => g.Key, g => g.SelectMany(r => r.TimeSlots).OrderBy(s => s.StartTime).ToList());
 
         foreach (var equipmentGroup in equipmentGroups)
         {
@@ -99,6 +102,16 @@ public class ReservationService
         }
 
         return true;
+    }
+
+    public Reservation GetReservationById(int id)
+    {
+        return _reservationRepository.GetReservationById(id);
+    }
+
+    public void UpdateReservation(int id,Reservation existingReservation)
+    {
+        _reservationRepository.UpdateReservation(id, existingReservation);
     }
 }
 

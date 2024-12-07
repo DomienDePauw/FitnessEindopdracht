@@ -1,4 +1,5 @@
-﻿using FitnessBeheerDomain.Interfaces;
+﻿using FitnessBeheerDomain.Exceptions;
+using FitnessBeheerDomain.Interfaces;
 using FitnessBeheerDomain.Model;
 using FitnessBeheerEFlayer.Mappers;
 using Microsoft.EntityFrameworkCore;
@@ -42,5 +43,66 @@ public class ReservationRepositoryEF : IReservationRepository
             .Select(r => MapReservation.MapToDomain(r))
             .ToList();
         return reservations;
+    }
+
+    public void DeleteReservation(int id)
+    {
+        var reservation = _context.reservation.Include(r => r.TimeSlots)
+            .FirstOrDefault(r => r.Id == id);
+
+        if (reservation == null)
+        {
+            throw new ReservationException("Reservation not found.");
+        }
+
+        foreach (var timeSlot in reservation.TimeSlots.ToList())
+        {
+            reservation.TimeSlots.Remove(timeSlot);
+        }
+
+        _context.reservation.Remove(reservation);
+        _context.SaveChanges();
+    }
+
+    public Reservation GetReservationById(int id)
+    {
+        var reservation = _context.reservation
+            .Include(r => r.TimeSlots)
+            .FirstOrDefault(r => r.Id == id);
+
+        if (reservation == null)
+        {
+            throw new ReservationException("Reservation not found.");
+        }
+
+        return MapReservation.MapToDomain(reservation);
+    }
+
+    public void UpdateReservation(int id, Reservation updatedReservation)
+    {
+        var reservation = _context.reservation
+            .Include(r => r.TimeSlots)
+            .FirstOrDefault(r => r.Id == id);
+
+        if (reservation == null)
+        {
+            throw new ReservationException("Reservation not found.");
+        }
+
+        reservation.MemberId = updatedReservation.MemberId;
+        reservation.EquipmentId = updatedReservation.EquipmentId;
+        reservation.Date = updatedReservation.ReservationDate;
+
+        foreach (var timeSlot in reservation.TimeSlots.ToList())
+        {
+            reservation.TimeSlots.Remove(timeSlot);
+        }
+
+        foreach (var timeSlot in updatedReservation.TimeSlots)
+        {
+            reservation.TimeSlots.Add(MapTimeSlot.MapToEF(timeSlot));
+        }
+
+        _context.SaveChanges();
     }
 }
