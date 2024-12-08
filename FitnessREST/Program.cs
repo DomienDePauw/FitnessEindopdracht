@@ -27,6 +27,12 @@ public class Program
         builder.Services.AddScoped<EquipmentService>();
         builder.Services.AddScoped<IReservationRepository, ReservationRepositoryEF>();
         builder.Services.AddScoped<ReservationService>();
+        builder.Services.AddScoped<IFitnessProgramRepository, FitnessProgramRepositoryEF>();
+        builder.Services.AddScoped<FitnessProgramService>();
+        builder.Services.AddScoped<ICyclingSessionRepository, CyclingSessionRepositoryEF>();
+        builder.Services.AddScoped<CyclingSessionService>();
+        builder.Services.AddScoped<IRunningSessionRepository, RunningSessionRepositoryEF>();
+        builder.Services.AddScoped<RunningSessionService>();
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();

@@ -1,6 +1,9 @@
 ﻿using FitnessBeheerDomain.Interfaces;
 using FitnessBeheerDomain.Model;
+using FitnessBeheerEFlayer.Exceptions;
 using FitnessBeheerEFlayer.Mappers;
+using FitnessBeheerEFlayer.Model;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,4 +26,40 @@ public class EquipmentRepositoryEF : IEquipmentRepository
         _context.equipment.Add(equipmentEF);
         _context.SaveChanges();
     }
+    public Equipment GetEquipmentById(int equipmentId)
+    {
+        var equipmentEF = _context.equipment
+            .Include(e => e.Type)
+            .FirstOrDefault(e => e.Id == equipmentId);
+
+        if (equipmentEF == null)
+        {
+            throw new Exception("Equipment not found.");
+        }
+        if (equipmentEF.Type == null)
+        {
+            equipmentEF.Type = new EquipmentTypeEF
+            {
+                Id = 0,
+                Name = "",
+                Description = ""
+            };
+        }
+
+        return MapEquipment.MapToDomain(equipmentEF);
+    }
+
+    public void UpdateEquipment(int id,Equipment equipment)
+    {
+        var equipmentEF = _context.equipment.FirstOrDefault(e => e.Id == equipment.Id);
+        if (equipmentEF == null)
+        {
+            throw new Exception("Equipment not found.");
+        }
+
+        equipmentEF.IsAvailable = equipment.IsAvailable;
+
+        _context.SaveChanges();
+    }
+
 }

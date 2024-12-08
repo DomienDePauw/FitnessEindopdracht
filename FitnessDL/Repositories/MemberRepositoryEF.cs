@@ -25,7 +25,6 @@ public class MemberRepositoryEF : IMemberRepository
     //{
     //    return _context.members.ToListAsync(); //Return TolistAsync geeft mij een Taks => List van member
     //}
-
     public void AddMember(Member member)
     {
         var memberEF = MapMember.MapToEF(member);
@@ -59,5 +58,22 @@ public class MemberRepositoryEF : IMemberRepository
         existingEFMember.MemberType = updatedMember.MemberType.ToString();
 
         _context.SaveChanges();
+    }
+
+    public Member GetMemberWithDetails(int id)
+    {
+        var member = _context.members
+            .Include(m => m.Reservations)              
+            .Include(m => m.FitnessPrograms)
+            .Include(m => m.CyclingSessions)
+            .Include(m => m.RunningSessions)
+            .FirstOrDefault(m => m.Id == id);
+
+        if (member == null)
+        {
+            throw new Exception("Member not found.");
+        }
+
+        return MapMember.MapToDomain(member);
     }
 }

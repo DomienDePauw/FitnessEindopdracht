@@ -13,7 +13,7 @@ public class MemberService
 
     public MemberService(IMemberRepository repository)
     {
-        this._repository = repository;
+        _repository = repository;
     }
 
     public void AddMember(Member member)
@@ -24,6 +24,11 @@ public class MemberService
     public Member GetMemberById(int memberId)
     {
         return _repository.GetMemberById(memberId);
+    }
+
+    public Member GetMemberWithDetails(int id)
+    {
+        return _repository.GetMemberWithDetails(id);
     }
 
     public void UpdateMember(int memberId, Member member)

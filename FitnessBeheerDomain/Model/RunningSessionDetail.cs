@@ -11,6 +11,5 @@ public class RunningSessionDetail
     public int SequenceNumber { get; set; }
     public int IntervalTime { get; set; }
     public int IntervalSpeed { get; set; }
-    //public RunningSession RunningSession { get; set; }
 }
 

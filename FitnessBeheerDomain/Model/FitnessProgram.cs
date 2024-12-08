@@ -7,10 +7,23 @@ using System.Threading.Tasks;
 namespace FitnessBeheerDomain.Model;
 public class FitnessProgram
 {
-    public string ProgramCode { get; set; }
+    public FitnessProgram()
+    {
+        
+    }
+    public FitnessProgram(int programCode,string name, string target, DateTime startDate, int maxMembers)
+    {
+        ProgramCode = programCode;
+        Name = name;
+        Target = target;
+        StartDate = startDate;
+        MaxMembers = maxMembers;
+    }
+
+    public int MemberId { get; set; }
+    public int ProgramCode { get; set; }
     public string Name { get; set; }
     public string Target { get; set; }
     public DateTime StartDate { get; set; }
     public int MaxMembers { get; set; }
-    //public List<Member> Members { get; set; } = new List<Member>();
 }

@@ -10,5 +10,6 @@ public interface IMemberRepository
 {
     void AddMember(Member member);
     Member GetMemberById(int memberId);
+    Member GetMemberWithDetails(int id);
     void UpdateMember(int memberId, Member updatedMember);
 }

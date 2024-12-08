@@ -20,4 +20,14 @@ public class EquipmentService
     {
         _equipmentRepository.AddEquipment(equipment);
     }
+
+    public Equipment GetEquipmentById(int id)
+    {
+        return _equipmentRepository.GetEquipmentById(id);
+    }
+
+    public void UpdateEquipment(int id,Equipment updatedEquipment)
+    {
+        _equipmentRepository.UpdateEquipment(id,updatedEquipment);
+    }
 }

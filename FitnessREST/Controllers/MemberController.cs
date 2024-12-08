@@ -75,4 +75,17 @@ public class MemberController : ControllerBase
             return BadRequest($"An error occurred: {ex.Message}");
         }
     }
+    [HttpGet("GetMember/{id}")]
+    public IActionResult GetMemberWithDetails(int id)
+    {
+        try
+        {
+            var member = _memberService.GetMemberWithDetails(id);
+            return Ok(member);
+        }
+        catch (Exception ex)
+        {
+            return NotFound(ex.Message);
+        }
+    }
 }

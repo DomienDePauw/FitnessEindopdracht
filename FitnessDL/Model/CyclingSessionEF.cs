@@ -18,6 +18,6 @@ public class CyclingSessionEF
     public int Avg_Cadence { get; set; }
     public int Max_Cadence { get; set; }
     public string TrainingType { get; set; }
-    public string Comment { get; set; }
+    public string? Comment { get; set; }
     public MemberEF Member { get; set; }
 }
