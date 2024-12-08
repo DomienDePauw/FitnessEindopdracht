@@ -5,6 +5,7 @@ using FitnessBeheerDomain.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using FitnessREST.DTO;
+using System.Linq;
 
 namespace FitnessREST.Controllers;
 
@@ -53,20 +54,20 @@ public class MemberController : ControllerBase
 
         try
         {
-            var existingMember = _memberService.GetMemberById(memberId);
-            if (existingMember == null)
+            var member = _memberService.GetMemberById(memberId);
+            if (member == null)
             {
                 return NotFound($"Member with ID {memberId} not found.");
             }
 
-            existingMember.FirstName = memberDto.FirstName;
-            existingMember.LastName = memberDto.LastName;
-            existingMember.Email = memberDto.Email;
-            existingMember.City = memberDto.City;
-            existingMember.Birthday = memberDto.Birthday;
-            existingMember.Interests = memberDto.Interests ?? new List<string>();
-            existingMember.MemberType = memberDto.MemberType;
-            _memberService.UpdateMember(memberId,existingMember);
+            member.FirstName = memberDto.FirstName;
+            member.LastName = memberDto.LastName;
+            member.Email = memberDto.Email;
+            member.City = memberDto.City;
+            member.Birthday = memberDto.Birthday;
+            member.Interests = memberDto.Interests ?? new List<string>();
+            member.MemberType = memberDto.MemberType;
+            _memberService.UpdateMember(memberId, member);
             
             return NoContent();
         }
@@ -80,12 +81,83 @@ public class MemberController : ControllerBase
     {
         try
         {
-            var member = _memberService.GetMemberWithDetails(id);
+            Member member = _memberService.GetMemberWithDetails(id);
             return Ok(member);
         }
         catch (Exception ex)
         {
             return NotFound(ex.Message);
         }
+    }
+
+    [HttpGet("GetSessionsOrderedByDate/{id}")]
+    public SessionDTO GetSessions(int id, int month, int year)
+    {
+        Member member = _memberService.GetMemberWithSessions(id);
+        SessionDTO sessionDTO = new SessionDTO();
+
+        sessionDTO.cyclingSessions = member.CyclingSessions
+            .Where(c => c.Date.Year == year && c.Date.Month == month)
+            .OrderBy(c => c.Date)
+            .ToList();
+
+        sessionDTO.runningSessions = member.RunningSessions
+            .Where(c => c.Date.Year == year && c.Date.Month == month)
+            .OrderBy(r => r.Date)
+            .ToList();
+
+        return sessionDTO;
+    }
+
+    [HttpGet("GetMonthlyAllSessionsOverview/{id}/{year}")]
+    public List<AllSessionsOverviewDTO> GetMonthlyAllSessionsOverview(int id, int year)
+    {
+        Member member = _memberService.GetMemberWithSessions(id);
+
+        var allSessions = member.CyclingSessions
+            .Select(c => new { Date = c.Date })
+            .Concat(member.RunningSessions.Select(r => new { Date = r.Date }));
+
+        var totalSessions = allSessions
+            .Where(s => s.Date.Year == year)
+            .GroupBy(s => s.Date.Month)
+            .ToDictionary(g => g.Key, g => g.Count());
+
+        var result = Enumerable.Range(1, 12)
+            .Select(month => new AllSessionsOverviewDTO
+            {
+                Month = month,
+                TotalSessionCount = totalSessions.ContainsKey(month) ? totalSessions[month] : 0
+            })
+            .ToList();
+
+        return result;
+    }
+
+    [HttpGet("GetMonthlySessionOverview/{id}/{year}")]
+    public List<SessionsOverviewDTO> GetMonthlySessionOverview(int id, int year)
+    {
+        Member member = _memberService.GetMemberWithSessions(id);
+
+        var cyclingSessions = member.CyclingSessions
+            .Where(c => c.Date.Year == year)
+            .GroupBy(c => c.Date.Month)
+            .ToDictionary(g => g.Key, g => g.Count());
+
+        var runningSessions = member.RunningSessions
+            .Where(r => r.Date.Year == year)
+            .GroupBy(r => r.Date.Month)
+            .ToDictionary(g => g.Key, g => g.Count());
+
+        var result = Enumerable.Range(1, 12)
+            .Select(month => new SessionsOverviewDTO
+            {
+                Month = month,
+                CyclingSessionCount = cyclingSessions.ContainsKey(month) ? cyclingSessions[month] : 0,
+                RunningSessionCount = runningSessions.ContainsKey(month) ? runningSessions[month] : 0
+            })
+            .ToList();
+
+        return result;
     }
 }

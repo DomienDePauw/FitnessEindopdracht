@@ -3,15 +3,99 @@
   "WorkspaceRootPath": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\controllers\\runningsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:controllers\\runningsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\sessionsoverviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\sessionsoverviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\allsessionsoverviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\allsessionsoverviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DC0D59-B537-492B-9175-0A41AA78DE76}|..\\FitnessDL\\FitnessBeheerEFlayer.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessdl\\repositories\\runningsessionrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DC0D59-B537-492B-9175-0A41AA78DE76}|..\\FitnessDL\\FitnessBeheerEFlayer.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessdl\\repositories\\reservationrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DC0D59-B537-492B-9175-0A41AA78DE76}|..\\FitnessDL\\FitnessBeheerEFlayer.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessdl\\repositories\\memberrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\model\\runningsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\model\\cyclingsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\interfaces\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\equipmenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\equipmenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\equipmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\equipmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\sessionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\sessionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\timeslotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\timeslotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\fitnessprogramdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\fitnessprogramdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\equipmentmaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\equipmentmaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\controllers\\cyclingsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:controllers\\cyclingsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\model\\runningsessiondetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\model\\timeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3DC0D59-B537-492B-9175-0A41AA78DE76}|..\\FitnessDL\\FitnessBeheerEFlayer.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessdl\\repositories\\cyclingsessionrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\services\\equipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\services\\cyclingsessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\interfaces\\icyclingsessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\controllers\\runningsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:controllers\\runningsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +111,6 @@
       "AbsoluteMoniker": "D:0:0:{F3DC0D59-B537-492B-9175-0A41AA78DE76}|..\\FitnessDL\\FitnessBeheerEFlayer.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessdl\\mappers\\maprunningsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\model\\runningsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3DC0D59-B537-492B-9175-0A41AA78DE76}|..\\FitnessDL\\FitnessBeheerEFlayer.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessdl\\repositories\\runningsessionrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\controllers\\fitnessprogramcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:controllers\\fitnessprogramcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -40,16 +118,7 @@
       "AbsoluteMoniker": "D:0:0:{F3DC0D59-B537-492B-9175-0A41AA78DE76}|..\\FitnessDL\\FitnessBeheerEFlayer.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessdl\\model\\runningsessiondetailef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3DC0D59-B537-492B-9175-0A41AA78DE76}|..\\FitnessDL\\FitnessBeheerEFlayer.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessdl\\repositories\\memberrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\model\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\services\\equipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3DC0D59-B537-492B-9175-0A41AA78DE76}|..\\FitnessDL\\FitnessBeheerEFlayer.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessdl\\mappers\\mapmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -74,9 +143,6 @@
       "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\services\\runningsessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\services\\cyclingsessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\services\\fitnessprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -92,29 +158,10 @@
       "AbsoluteMoniker": "D:0:0:{F3DC0D59-B537-492B-9175-0A41AA78DE76}|..\\FitnessDL\\FitnessBeheerEFlayer.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessdl\\fitnesscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\interfaces\\icyclingsessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\controllers\\cyclingsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:controllers\\cyclingsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\interfaces\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\interfaces\\ifitnessprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3DC0D59-B537-492B-9175-0A41AA78DE76}|..\\FitnessDL\\FitnessBeheerEFlayer.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessdl\\repositories\\cyclingsessionrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3DC0D59-B537-492B-9175-0A41AA78DE76}|..\\FitnessDL\\FitnessBeheerEFlayer.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessdl\\repositories\\reservationrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\model\\equipement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\model\\cyclingsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\model\\fitnessprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -123,43 +170,7 @@
       "AbsoluteMoniker": "D:0:0:{F3DC0D59-B537-492B-9175-0A41AA78DE76}|..\\FitnessDL\\FitnessBeheerEFlayer.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessdl\\repositories\\fitnessprogramrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\fitnessprogramdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\fitnessprogramdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\equipmenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\equipmenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\equipmentmaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\equipmentmaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\equipmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\equipmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\timeslotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\timeslotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\runningsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\runningsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\cyclingsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\cyclingsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\dto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:dto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\model\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -169,10 +180,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3DC0D59-B537-492B-9175-0A41AA78DE76}|..\\FitnessDL\\FitnessBeheerEFlayer.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessdl\\mappers\\mapequipmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessrest\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A2378A5-5F3E-4034-8159-EF6604610ABE}|FitnessREST.csproj|solutionrelative:controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\model\\equipmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -194,9 +201,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}|..\\FitnessBeheerDomain\\FitnessBeheerDomain.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessbeheerdomain\\model\\timeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3DC0D59-B537-492B-9175-0A41AA78DE76}|..\\FitnessDL\\FitnessBeheerEFlayer.csproj|c:\\users\\domie\\onedrive\\bureaublad\\hogent\\2de-jaar-graduaat\\prog2\\fitnesseindopdracht\\fitnesseindopdracht\\youmove\\fitnesseindopdracht\\fitnessdl\\mappers\\maptimeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -230,7 +234,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -258,111 +262,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IEquipmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IEquipmentRepository.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Interfaces\\IEquipmentRepository.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IEquipmentRepository.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Interfaces\\IEquipmentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T22:33:00.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EquipmentController.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\EquipmentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EquipmentController.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\EquipmentController.cs",
-              "RelativeToolTip": "Controllers\\EquipmentController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwEMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T22:44:47.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RunningSessionController.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\RunningSessionController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RunningSessionController.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\RunningSessionController.cs",
-              "RelativeToolTip": "Controllers\\RunningSessionController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAowA4AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T22:15:13.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RunningSessionDetail.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\RunningSessionDetail.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\RunningSessionDetail.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\RunningSessionDetail.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Model\\RunningSessionDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:37:47.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MemberController.cs",
               "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\MemberController.cs",
               "RelativeDocumentMoniker": "Controllers\\MemberController.cs",
               "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\MemberController.cs",
               "RelativeToolTip": "Controllers\\MemberController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAgwE0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T15:45:58.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MapRunningSessionDetail.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapRunningSessionDetail.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapRunningSessionDetail.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapRunningSessionDetail.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Mappers\\MapRunningSessionDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ReservationRepositoryEF.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\ReservationRepositoryEF.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Repositories\\ReservationRepositoryEF.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\ReservationRepositoryEF.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Repositories\\ReservationRepositoryEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T19:16:32.893Z",
+              "WhenOpened": "2024-12-05T23:39:31.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MapRunningSession.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapRunningSession.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapRunningSession.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapRunningSession.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Mappers\\MapRunningSession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:58:47.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RunningSession.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\RunningSession.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\RunningSession.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\RunningSession.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Model\\RunningSession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:29:51.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "RunningSessionRepositoryEF.cs",
               "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\RunningSessionRepositoryEF.cs",
               "RelativeDocumentMoniker": "..\\FitnessDL\\Repositories\\RunningSessionRepositoryEF.cs",
@@ -375,436 +301,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FitnessProgramController.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\FitnessProgramController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FitnessProgramController.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\FitnessProgramController.cs",
-              "RelativeToolTip": "Controllers\\FitnessProgramController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAuwDYAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AllSessionsOverviewDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\AllSessionsOverviewDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\AllSessionsOverviewDTO.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\AllSessionsOverviewDTO.cs",
+              "RelativeToolTip": "DTO\\AllSessionsOverviewDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:53:06.589Z",
+              "WhenOpened": "2024-12-08T13:52:11.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RunningSessionDetailEF.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\RunningSessionDetailEF.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\RunningSessionDetailEF.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\RunningSessionDetailEF.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Model\\RunningSessionDetailEF.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SessionsOverviewDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\SessionsOverviewDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\SessionsOverviewDTO.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\SessionsOverviewDTO.cs",
+              "RelativeToolTip": "DTO\\SessionsOverviewDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T14:44:53.346Z",
+              "WhenOpened": "2024-12-08T13:44:41.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "MemberRepositoryEF.cs",
               "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\MemberRepositoryEF.cs",
               "RelativeDocumentMoniker": "..\\FitnessDL\\Repositories\\MemberRepositoryEF.cs",
               "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\MemberRepositoryEF.cs",
               "RelativeToolTip": "..\\FitnessDL\\Repositories\\MemberRepositoryEF.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwBoAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T14:59:26.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MemberService.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\MemberService.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Services\\MemberService.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\MemberService.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Services\\MemberService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "RunningSession.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\RunningSession.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\RunningSession.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\RunningSession.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Model\\RunningSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T21:53:54.532Z",
+              "WhenOpened": "2024-12-03T15:29:51.834Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Member.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\Member.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\Member.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\Member.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Model\\Member.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA5wC4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:21:21.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EquipmentService.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\EquipmentService.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Services\\EquipmentService.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\EquipmentService.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Services\\EquipmentService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T22:41:20.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MapMember.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapMember.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapMember.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapMember.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Mappers\\MapMember.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:05:27.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EquipmentRepositoryEF.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\EquipmentRepositoryEF.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Repositories\\EquipmentRepositoryEF.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\EquipmentRepositoryEF.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Repositories\\EquipmentRepositoryEF.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T22:33:21.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CyclingSessionEF.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\CyclingSessionEF.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\CyclingSessionEF.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\CyclingSessionEF.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Model\\CyclingSessionEF.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T14:28:44.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "RunningSessionService.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\RunningSessionService.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Services\\RunningSessionService.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\RunningSessionService.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Services\\RunningSessionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T22:19:31.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T16:19:01.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IRunningSessionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IRunningSessionRepository.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Interfaces\\IRunningSessionRepository.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IRunningSessionRepository.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Interfaces\\IRunningSessionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T22:23:59.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IReservationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IReservationRepository.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Interfaces\\IReservationRepository.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IReservationRepository.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Interfaces\\IReservationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:16:51.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CyclingSessionService.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\CyclingSessionService.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Services\\CyclingSessionService.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\CyclingSessionService.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Services\\CyclingSessionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T22:17:18.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "FitnessProgramService.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\FitnessProgramService.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Services\\FitnessProgramService.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\FitnessProgramService.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Services\\FitnessProgramService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:55:30.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "FitnessProgramEF.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\FitnessProgramEF.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\FitnessProgramEF.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\FitnessProgramEF.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Model\\FitnessProgramEF.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T14:18:00.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "RunningSessionEF.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\RunningSessionEF.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\RunningSessionEF.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\RunningSessionEF.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Model\\RunningSessionEF.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T14:44:45.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ReservationEF.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\ReservationEF.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\ReservationEF.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\ReservationEF.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Model\\ReservationEF.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T10:21:51.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "FitnessContext.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\FitnessContext.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\FitnessContext.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\FitnessContext.cs",
-              "RelativeToolTip": "..\\FitnessDL\\FitnessContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T10:27:34.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ICyclingSessionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\ICyclingSessionRepository.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Interfaces\\ICyclingSessionRepository.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\ICyclingSessionRepository.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Interfaces\\ICyclingSessionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T22:32:12.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CyclingSessionController.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\CyclingSessionController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CyclingSessionController.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\CyclingSessionController.cs",
-              "RelativeToolTip": "Controllers\\CyclingSessionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T22:16:25.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IMemberRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IMemberRepository.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Interfaces\\IMemberRepository.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IMemberRepository.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Interfaces\\IMemberRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:43:26.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IFitnessProgramRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IFitnessProgramRepository.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Interfaces\\IFitnessProgramRepository.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IFitnessProgramRepository.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Interfaces\\IFitnessProgramRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:56:14.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CyclingSessionRepositoryEF.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\CyclingSessionRepositoryEF.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Repositories\\CyclingSessionRepositoryEF.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\CyclingSessionRepositoryEF.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Repositories\\CyclingSessionRepositoryEF.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T22:31:19.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ReservationRepositoryEF.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\ReservationRepositoryEF.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Repositories\\ReservationRepositoryEF.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\ReservationRepositoryEF.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Repositories\\ReservationRepositoryEF.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowE0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:39:31.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Equipement.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\Equipement.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\Equipement.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\Equipement.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Model\\Equipement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:36:20.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 7,
               "Title": "CyclingSession.cs",
               "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\CyclingSession.cs",
               "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\CyclingSession.cs",
               "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\CyclingSession.cs",
               "RelativeToolTip": "..\\FitnessBeheerDomain\\Model\\CyclingSession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T15:29:42.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "FitnessProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\FitnessProgram.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\FitnessProgram.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\FitnessProgram.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Model\\FitnessProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "Controllers\\ReservationController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwD0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:28:54.674Z",
+              "WhenOpened": "2024-12-05T23:30:51.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "FitnessProgramRepositoryEF.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\FitnessProgramRepositoryEF.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Repositories\\FitnessProgramRepositoryEF.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\FitnessProgramRepositoryEF.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Repositories\\FitnessProgramRepositoryEF.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "IMemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IMemberRepository.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Interfaces\\IMemberRepository.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IMemberRepository.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Interfaces\\IMemberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T13:59:02.472Z",
+              "WhenOpened": "2024-12-03T15:43:26.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "FitnessProgramDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\FitnessProgramDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\FitnessProgramDTO.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\FitnessProgramDTO.cs",
-              "RelativeToolTip": "DTO\\FitnessProgramDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "SessionsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\SessionsDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\SessionsDTO.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\SessionsDTO.cs",
+              "RelativeToolTip": "DTO\\SessionsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T10:46:31.324Z",
+              "WhenOpened": "2024-12-08T02:05:20.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "EquipmentTypeDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\EquipmentTypeDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\EquipmentTypeDTO.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\EquipmentTypeDTO.cs",
-              "RelativeToolTip": "DTO\\EquipmentTypeDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T16:29:50.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "EquipmentMaintenanceDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\EquipmentMaintenanceDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\EquipmentMaintenanceDTO.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\EquipmentMaintenanceDTO.cs",
-              "RelativeToolTip": "DTO\\EquipmentMaintenanceDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T17:43:59.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "EquipmentDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\EquipmentDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\EquipmentDTO.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\EquipmentDTO.cs",
-              "RelativeToolTip": "DTO\\EquipmentDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T23:03:15.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 15,
               "Title": "TimeSlotDTO.cs",
               "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\TimeSlotDTO.cs",
               "RelativeDocumentMoniker": "DTO\\TimeSlotDTO.cs",
@@ -817,45 +418,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "RunningSessionDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\RunningSessionDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\RunningSessionDTO.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\RunningSessionDTO.cs",
-              "RelativeToolTip": "DTO\\RunningSessionDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "ReservationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\ReservationDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\ReservationDTO.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\ReservationDTO.cs",
+              "RelativeToolTip": "DTO\\ReservationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T10:46:59.185Z",
+              "WhenOpened": "2024-12-04T10:47:07.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "ReservationService.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\ReservationService.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Services\\ReservationService.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\ReservationService.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Services\\ReservationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:23:42.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "CyclingSessionDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\CyclingSessionDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\CyclingSessionDTO.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\CyclingSessionDTO.cs",
-              "RelativeToolTip": "DTO\\CyclingSessionDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T10:46:48.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 12,
               "Title": "MemberDTO.cs",
               "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\MemberDTO.cs",
               "RelativeDocumentMoniker": "DTO\\MemberDTO.cs",
@@ -863,155 +439,100 @@
               "RelativeToolTip": "DTO\\MemberDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T10:42:51.833Z"
+              "WhenOpened": "2024-12-04T10:42:51.833Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ReservationDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\ReservationDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\ReservationDTO.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\ReservationDTO.cs",
-              "RelativeToolTip": "DTO\\ReservationDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "EquipmentTypeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\EquipmentTypeDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\EquipmentTypeDTO.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\EquipmentTypeDTO.cs",
+              "RelativeToolTip": "DTO\\EquipmentTypeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T10:47:07.069Z"
+              "WhenOpened": "2024-12-07T16:29:50.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\Reservation.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\Reservation.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\Reservation.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Model\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "FitnessProgramDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\FitnessProgramDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\FitnessProgramDTO.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\FitnessProgramDTO.cs",
+              "RelativeToolTip": "DTO\\FitnessProgramDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:29:29.788Z"
+              "WhenOpened": "2024-12-04T10:46:31.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "MapReservation.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapReservation.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapReservation.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapReservation.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Mappers\\MapReservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "EquipmentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\EquipmentDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\EquipmentDTO.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\EquipmentDTO.cs",
+              "RelativeToolTip": "DTO\\EquipmentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:58:17.237Z"
+              "WhenOpened": "2024-12-06T23:03:15.847Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "MapEquipmentType.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapEquipmentType.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapEquipmentType.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapEquipmentType.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Mappers\\MapEquipmentType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "EquipmentMaintenanceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\EquipmentMaintenanceDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\EquipmentMaintenanceDTO.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\DTO\\EquipmentMaintenanceDTO.cs",
+              "RelativeToolTip": "DTO\\EquipmentMaintenanceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:35:03.328Z"
+              "WhenOpened": "2024-12-07T17:43:59.908Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "ReservationController.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\ReservationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReservationController.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\ReservationController.cs",
-              "RelativeToolTip": "Controllers\\ReservationController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwD0AAAANAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "MemberService.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\MemberService.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Services\\MemberService.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\MemberService.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Services\\MemberService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:30:51.199Z"
+              "WhenOpened": "2024-12-03T21:53:54.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "EquipmentType.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\EquipmentType.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\EquipmentType.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\EquipmentType.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Model\\EquipmentType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "CyclingSessionController.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\CyclingSessionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CyclingSessionController.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\CyclingSessionController.cs",
+              "RelativeToolTip": "Controllers\\CyclingSessionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:02:42.334Z"
+              "WhenOpened": "2024-12-07T22:16:25.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "MemberEF.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\MemberEF.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\MemberEF.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\MemberEF.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Model\\MemberEF.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "RunningSessionDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\RunningSessionDetail.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\RunningSessionDetail.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\RunningSessionDetail.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Model\\RunningSessionDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T10:37:22.024Z"
+              "WhenOpened": "2024-12-03T15:37:47.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "MapEquipment.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapEquipment.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapEquipment.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapEquipment.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Mappers\\MapEquipment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T19:10:12.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "EquipmentEF.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\EquipmentEF.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\EquipmentEF.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\EquipmentEF.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Model\\EquipmentEF.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T10:20:46.713Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "EquipmentTypeEF.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\EquipmentTypeEF.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\EquipmentTypeEF.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\EquipmentTypeEF.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Model\\EquipmentTypeEF.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:33:45.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "MapFitnessProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapFitnessProgram.cs",
-              "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapFitnessProgram.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapFitnessProgram.cs",
-              "RelativeToolTip": "..\\FitnessDL\\Mappers\\MapFitnessProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:56:42.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Program.cs",
-              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Program.cs",
-              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Program.cs",
-              "RelativeToolTip": "..\\FitnessBeheerDomain\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:29:37.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 21,
               "Title": "TimeSlot.cs",
               "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\TimeSlot.cs",
               "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\TimeSlot.cs",
@@ -1023,7 +544,475 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EquipmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\EquipmentService.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Services\\EquipmentService.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\EquipmentService.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Services\\EquipmentService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T22:41:20.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CyclingSessionService.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\CyclingSessionService.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Services\\CyclingSessionService.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\CyclingSessionService.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Services\\CyclingSessionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:17:18.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CyclingSessionRepositoryEF.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\CyclingSessionRepositoryEF.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Repositories\\CyclingSessionRepositoryEF.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\CyclingSessionRepositoryEF.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Repositories\\CyclingSessionRepositoryEF.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:31:19.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ICyclingSessionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\ICyclingSessionRepository.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Interfaces\\ICyclingSessionRepository.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\ICyclingSessionRepository.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Interfaces\\ICyclingSessionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:32:12.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RunningSessionController.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\RunningSessionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RunningSessionController.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\RunningSessionController.cs",
+              "RelativeToolTip": "Controllers\\RunningSessionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:15:13.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EquipmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\EquipmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EquipmentController.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\EquipmentController.cs",
+              "RelativeToolTip": "Controllers\\EquipmentController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T22:44:47.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IEquipmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IEquipmentRepository.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Interfaces\\IEquipmentRepository.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IEquipmentRepository.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Interfaces\\IEquipmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T22:33:00.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MapRunningSessionDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapRunningSessionDetail.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapRunningSessionDetail.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapRunningSessionDetail.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Mappers\\MapRunningSessionDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T19:16:32.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MapRunningSession.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapRunningSession.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapRunningSession.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapRunningSession.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Mappers\\MapRunningSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:58:47.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FitnessProgramController.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\FitnessProgramController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FitnessProgramController.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Controllers\\FitnessProgramController.cs",
+              "RelativeToolTip": "Controllers\\FitnessProgramController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwDYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:53:06.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RunningSessionDetailEF.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\RunningSessionDetailEF.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\RunningSessionDetailEF.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\RunningSessionDetailEF.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Model\\RunningSessionDetailEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:44:53.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\Member.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\Member.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\Member.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Model\\Member.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wC4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:21:21.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MapMember.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapMember.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapMember.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapMember.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Mappers\\MapMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:05:27.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EquipmentRepositoryEF.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\EquipmentRepositoryEF.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Repositories\\EquipmentRepositoryEF.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\EquipmentRepositoryEF.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Repositories\\EquipmentRepositoryEF.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T22:33:21.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CyclingSessionEF.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\CyclingSessionEF.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\CyclingSessionEF.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\CyclingSessionEF.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Model\\CyclingSessionEF.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:28:44.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RunningSessionService.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\RunningSessionService.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Services\\RunningSessionService.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\RunningSessionService.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Services\\RunningSessionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:19:31.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessREST\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:19:01.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IRunningSessionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IRunningSessionRepository.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Interfaces\\IRunningSessionRepository.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IRunningSessionRepository.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Interfaces\\IRunningSessionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T22:23:59.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Interfaces\\IReservationRepository.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IReservationRepository.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Interfaces\\IReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:16:51.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "FitnessProgramService.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\FitnessProgramService.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Services\\FitnessProgramService.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\FitnessProgramService.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Services\\FitnessProgramService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:55:30.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "FitnessProgramEF.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\FitnessProgramEF.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\FitnessProgramEF.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\FitnessProgramEF.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Model\\FitnessProgramEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T14:18:00.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RunningSessionEF.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\RunningSessionEF.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\RunningSessionEF.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\RunningSessionEF.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Model\\RunningSessionEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:44:45.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ReservationEF.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\ReservationEF.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\ReservationEF.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\ReservationEF.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Model\\ReservationEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:21:51.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "FitnessContext.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\FitnessContext.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\FitnessContext.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\FitnessContext.cs",
+              "RelativeToolTip": "..\\FitnessDL\\FitnessContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:27:34.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IFitnessProgramRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IFitnessProgramRepository.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Interfaces\\IFitnessProgramRepository.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Interfaces\\IFitnessProgramRepository.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Interfaces\\IFitnessProgramRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:56:14.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Equipement.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\Equipement.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\Equipement.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\Equipement.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Model\\Equipement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:36:20.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "FitnessProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\FitnessProgram.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\FitnessProgram.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\FitnessProgram.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Model\\FitnessProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:28:54.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "FitnessProgramRepositoryEF.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\FitnessProgramRepositoryEF.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Repositories\\FitnessProgramRepositoryEF.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Repositories\\FitnessProgramRepositoryEF.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Repositories\\FitnessProgramRepositoryEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:59:02.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\ReservationService.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Services\\ReservationService.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Services\\ReservationService.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Services\\ReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:23:42.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\Reservation.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\Reservation.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\Reservation.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Model\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:29:29.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MapReservation.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapReservation.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapReservation.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapReservation.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Mappers\\MapReservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:58:17.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "MapEquipmentType.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapEquipmentType.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapEquipmentType.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapEquipmentType.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Mappers\\MapEquipmentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:35:03.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "EquipmentType.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\EquipmentType.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Model\\EquipmentType.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Model\\EquipmentType.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Model\\EquipmentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:02:42.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "MemberEF.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\MemberEF.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\MemberEF.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\MemberEF.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Model\\MemberEF.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:37:22.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "MapEquipment.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapEquipment.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapEquipment.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapEquipment.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Mappers\\MapEquipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T19:10:12.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "EquipmentEF.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\EquipmentEF.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\EquipmentEF.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\EquipmentEF.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Model\\EquipmentEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:20:46.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "EquipmentTypeEF.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\EquipmentTypeEF.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\EquipmentTypeEF.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\EquipmentTypeEF.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Model\\EquipmentTypeEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:33:45.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "MapFitnessProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapFitnessProgram.cs",
+              "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapFitnessProgram.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapFitnessProgram.cs",
+              "RelativeToolTip": "..\\FitnessDL\\Mappers\\MapFitnessProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:56:42.233Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 60,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Program.cs",
+              "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Program.cs",
+              "ToolTip": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Program.cs",
+              "RelativeToolTip": "..\\FitnessBeheerDomain\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:29:37.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
               "Title": "MapTimeSlot.cs",
               "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapTimeSlot.cs",
               "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapTimeSlot.cs",
@@ -1035,7 +1024,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "TimeSlotEF.cs",
               "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Model\\TimeSlotEF.cs",
               "RelativeDocumentMoniker": "..\\FitnessDL\\Model\\TimeSlotEF.cs",
@@ -1047,7 +1036,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "ReservationException.cs",
               "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Exceptions\\ReservationException.cs",
               "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Exceptions\\ReservationException.cs",
@@ -1059,7 +1048,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "TimeSlotException.cs",
               "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessBeheerDomain\\Exceptions\\TimeSlotException.cs",
               "RelativeDocumentMoniker": "..\\FitnessBeheerDomain\\Exceptions\\TimeSlotException.cs",
@@ -1071,7 +1060,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "MapCyclingSession.cs",
               "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Mappers\\MapCyclingSession.cs",
               "RelativeDocumentMoniker": "..\\FitnessDL\\Mappers\\MapCyclingSession.cs",
@@ -1083,7 +1072,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "MemberRepositoryException.cs",
               "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Exceptions\\MemberRepositoryException.cs",
               "RelativeDocumentMoniker": "..\\FitnessDL\\Exceptions\\MemberRepositoryException.cs",
@@ -1095,7 +1084,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Program.cs",
               "RelativeDocumentMoniker": "..\\FitnessDL\\Program.cs",
@@ -1107,7 +1096,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "MapException.cs",
               "DocumentMoniker": "C:\\Users\\Domie\\OneDrive\\Bureaublad\\HoGent\\2de-jaar-graduaat\\PROG2\\FitnessEindopdracht\\FitnessEindopdracht\\YouMove\\FitnessEindopdracht\\FitnessDL\\Exceptions\\MapException.cs",
               "RelativeDocumentMoniker": "..\\FitnessDL\\Exceptions\\MapException.cs",

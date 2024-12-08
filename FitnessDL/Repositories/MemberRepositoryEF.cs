@@ -1,15 +1,8 @@
 ﻿using FitnessBeheerDomain.Interfaces;
 using FitnessBeheerDomain.Model;
-using FitnessBeheerEFlayer.Mappers;
-using FitnessBeheerEFlayer;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FitnessBeheerEFlayer.Model;
-using Microsoft.EntityFrameworkCore;
 using FitnessBeheerEFlayer.Exceptions;
+using FitnessBeheerEFlayer.Mappers;
+using Microsoft.EntityFrameworkCore;
 
 namespace FitnessBeheerEFlayer.Repositories;
 public class MemberRepositoryEF : IMemberRepository
@@ -20,60 +13,66 @@ public class MemberRepositoryEF : IMemberRepository
     {
         _context = ctx;
     }
-    //Task is awaitable als dit aan het lopen is kan je iets anders doen ondertussen.
-    //public Task<List<Member>> GetAll()
-    //{
-    //    return _context.members.ToListAsync(); //Return TolistAsync geeft mij een Taks => List van member
-    //}
     public void AddMember(Member member)
     {
-        var memberEF = MapMember.MapToEF(member);
-        _context.members.Add(memberEF);
+        var m = MapMember.MapToEF(member);
+        _context.members.Add(m);
         _context.SaveChanges();
     }
-    public Member GetMemberById (int Id)
+
+    public Member GetMemberWithSessions(int memberId)
     {
-        var memberEF = _context.members.FirstOrDefault(m => m.Id == Id);
-        if (memberEF == null)
+        var m = _context.members
+             .Include(m => m.CyclingSessions)
+             .Include(m => m.RunningSessions)
+             .FirstOrDefault(m => m.Id == memberId);
+
+        return MapMember.MapToDomain(m);
+    }
+
+    public Member GetMemberById(int Id)
+    {
+        var m = _context.members.FirstOrDefault(m => m.Id == Id);
+        if (m == null)
         {
             throw new MemberRepositoryException($"{Id} member is niet gevonden.");
         }
-        return MapMember.MapToDomain(memberEF);
+        return MapMember.MapToDomain(m);
     }
     public void UpdateMember(int id, Member updatedMember)
     {
-        var existingEFMember = _context.members.FirstOrDefault(m => m.Id == id);
+        var m = _context.members.FirstOrDefault(m => m.Id == id);
 
-        if (existingEFMember == null)
+        if (m == null)
         {
             throw new MemberRepositoryException($"{id} member is niet gevonden.");
         }
 
-        existingEFMember.FirstName = updatedMember.FirstName;
-        existingEFMember.LastName = updatedMember.LastName;
-        existingEFMember.Email = updatedMember.Email;
-        existingEFMember.City = updatedMember.City;
-        existingEFMember.Birthday = updatedMember.Birthday;
-        existingEFMember.Interests = updatedMember.Interests;
-        existingEFMember.MemberType = updatedMember.MemberType.ToString();
+        m.FirstName = updatedMember.FirstName;
+        m.LastName = updatedMember.LastName;
+        m.Email = updatedMember.Email;
+        m.City = updatedMember.City;
+        m.Birthday = updatedMember.Birthday;
+        m.Interests = updatedMember.Interests;
+        m.MemberType = updatedMember.MemberType.ToString();
 
         _context.SaveChanges();
     }
 
     public Member GetMemberWithDetails(int id)
     {
-        var member = _context.members
-            .Include(m => m.Reservations)              
+        var m = _context.members
+            .Include(m => m.Reservations)
             .Include(m => m.FitnessPrograms)
             .Include(m => m.CyclingSessions)
             .Include(m => m.RunningSessions)
             .FirstOrDefault(m => m.Id == id);
 
-        if (member == null)
+        if (m == null)
         {
             throw new Exception("Member not found.");
         }
 
-        return MapMember.MapToDomain(member);
+        return MapMember.MapToDomain(m);
     }
 }

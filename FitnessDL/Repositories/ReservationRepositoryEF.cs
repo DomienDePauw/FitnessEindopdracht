@@ -3,12 +3,6 @@ using FitnessBeheerDomain.Interfaces;
 using FitnessBeheerDomain.Model;
 using FitnessBeheerEFlayer.Mappers;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FitnessBeheerEFlayer.Repositories;
 public class ReservationRepositoryEF : IReservationRepository
@@ -29,7 +23,7 @@ public class ReservationRepositoryEF : IReservationRepository
     {
         var reservations = _context.reservation
             .Include(r => r.TimeSlots)
-            .Where(r => r.Date == date && r.MemberId == memberId) 
+            .Where(r => r.Date == date && r.MemberId == memberId)
             .Select(r => MapReservation.MapToDomain(r))
             .ToList();
         return reservations;

@@ -35,4 +35,9 @@ public class MemberService
     {
         _repository.UpdateMember(memberId, member);
     }
+
+    public Member GetMemberWithSessions(int memberId)
+    {
+        return _repository.GetMemberWithSessions(memberId);
+    }
 }
