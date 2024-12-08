@@ -2,9 +2,9 @@
 using FitnessBeheerDomain.Interfaces;
 using FitnessBeheerDomain.Model;
 using FitnessBeheerDomain.Services;
+using FitnessREST.DTO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using FitnessREST.DTO;
 using System.Linq;
 
 namespace FitnessREST.Controllers;
@@ -109,7 +109,7 @@ public class MemberController : ControllerBase
         return sessionDTO;
     }
 
-    [HttpGet("GetMonthlyAllSessionsOverview/{id}/{year}")]
+    [HttpGet("AllMonthlySessionsOverview/{id}/{year}")]
     public List<AllSessionsOverviewDTO> GetMonthlyAllSessionsOverview(int id, int year)
     {
         Member member = _memberService.GetMemberWithSessions(id);
@@ -134,6 +134,39 @@ public class MemberController : ControllerBase
         return result;
     }
 
+    [HttpGet("StatisticSessionsOverview/{id}/{year}")]
+    public StatisticSessionsDTO GetSessionsOverview(int id, int year)
+    {
+        Member member = _memberService.GetMemberWithSessions(id);
+
+        var allSessions = member.CyclingSessions
+            .Select(c => new { Date = c.Date, Duration = c.Duration })
+            .Concat(member.RunningSessions.Select(r => new { Date = r.Date, Duration = r.Duration }));
+
+        var filteredSessions = allSessions.Where(s => s.Date.Year == year).ToList();
+
+        int totalSessions = filteredSessions.Count;
+
+        double totalDuration = filteredSessions.Sum(s => s.Duration);
+        var longestSession = filteredSessions.OrderByDescending(s => s.Duration).FirstOrDefault();
+        var shortestSession = filteredSessions.OrderBy(s => s.Duration).FirstOrDefault();
+
+        double averageDuration = totalSessions > 0 ? totalDuration / totalSessions : 0;
+
+        double totalDurationInHours = totalDuration / 60;
+
+        var result = new StatisticSessionsDTO
+        {
+            TotalSessionCount = totalSessions,
+            TotalDurationInHours = totalDurationInHours,
+            LongestSessionDuration = longestSession?.Duration ?? 0, 
+            ShortestSessionDuration = shortestSession?.Duration ?? 0,
+            AverageSessionDuration = averageDuration
+        };
+
+        return result;
+    }
+
     [HttpGet("GetMonthlySessionOverview/{id}/{year}")]
     public List<SessionsOverviewDTO> GetMonthlySessionOverview(int id, int year)
     {
@@ -153,11 +186,65 @@ public class MemberController : ControllerBase
             .Select(month => new SessionsOverviewDTO
             {
                 Month = month,
-                CyclingSessionCount = cyclingSessions.ContainsKey(month) ? cyclingSessions[month] : 0,
-                RunningSessionCount = runningSessions.ContainsKey(month) ? runningSessions[month] : 0
+                CyclingSessionCount = cyclingSessions.GetValueOrDefault(month, 0),
+                RunningSessionCount = runningSessions.GetValueOrDefault(month, 0)
             })
             .ToList();
 
         return result;
     }
+
+    [HttpGet("GetMonthlySessionWithImpact/{id}/{year}")]
+    public List<SessionsWithImpact> GetMonthlySessionWithImpact(int id, int year)
+    {
+        Member member = _memberService.GetMemberWithSessions(id);
+
+        var sessionsByMonth = Enumerable.Range(1, 12)
+            .Select(month => new SessionsWithImpact
+            {
+                Month = month,
+                cyclingSessions = member.CyclingSessions
+                    .Where(c => c.Date.Year == year && c.Date.Month == month)
+                    .Select(c => new CyclingSessionDTO
+                    {
+                        Id = c.Id,
+                        Date = c.Date,
+                        Duration = c.Duration,
+                        AvgWatt = c.AvgWatt,
+                        MaxWatt = c.MaxWatt,
+                        AvgCadence = c.AvgCadence,
+                        MaxCadence = c.MaxCadence,
+                        TrainingType = c.TrainingType,
+                        Impact = CalculateImpact(c.Duration, c.AvgWatt).ToString() 
+                    })
+                    .ToList(),
+            })
+            .ToList();
+
+        return sessionsByMonth;
+    }
+
+    private Impact CalculateImpact(double duration, double avgWattage)
+    {
+        if (avgWattage < 150)
+        {
+            if (duration <= 90)
+            {
+                return Impact.Low;
+            }
+            else
+            {
+                return Impact.Medium;
+            }
+        }
+        else if (avgWattage <= 200)
+        {
+            return Impact.Medium;
+        }
+        else
+        {
+            return Impact.High;
+        }
+    }
+
 }

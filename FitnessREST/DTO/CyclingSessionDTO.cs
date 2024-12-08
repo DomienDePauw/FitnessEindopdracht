@@ -1,5 +1,6 @@
-﻿namespace FitnessBeheerDomain.Model;
-public class CyclingSession
+﻿namespace FitnessREST.DTO;
+
+public class CyclingSessionDTO
 {
     public int Id { get; set; }
     public DateTime Date { get; set; }
@@ -9,5 +10,5 @@ public class CyclingSession
     public double AvgCadence { get; set; }
     public double MaxCadence { get; set; }
     public string TrainingType { get; set; }
-    public string Comment { get; set; }
+    public string Impact { get; set; }
 }

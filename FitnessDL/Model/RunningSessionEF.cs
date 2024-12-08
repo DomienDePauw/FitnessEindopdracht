@@ -11,8 +11,8 @@ public class RunningSessionEF
     [Key]
     public int Id { get; set; }
     public DateTime Date  { get; set; } 
-    public int Duration { get; set; }
-    public int Avg_Speed { get; set; }
+    public double Duration { get; set; }
+    public double Avg_Speed { get; set; }
     public MemberEF Member { get; set; }
     public ICollection<RunningSessionDetailEF> Details { get; set; }
 }
