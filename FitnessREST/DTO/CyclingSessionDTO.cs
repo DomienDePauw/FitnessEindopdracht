@@ -12,3 +12,10 @@ public class CyclingSessionDTO
     public string TrainingType { get; set; }
     public string Impact { get; set; }
 }
+
+public enum Impact
+{
+    Low,
+    Medium,
+    High
+}

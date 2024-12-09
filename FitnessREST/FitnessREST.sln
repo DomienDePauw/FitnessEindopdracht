@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessBeheerEFlayer", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessBeheerDomain", "..\FitnessBeheerDomain\FitnessBeheerDomain.csproj", "{F9CC5DF8-E4CC-40DC-B49B-A606EC7C6C78}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{CB57EF13-C7C4-4ED2-827D-CAD741FB36BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

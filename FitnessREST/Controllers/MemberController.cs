@@ -194,39 +194,33 @@ public class MemberController : ControllerBase
         return result;
     }
 
-    [HttpGet("GetMonthlySessionWithImpact/{id}/{year}")]
-    public List<SessionsWithImpact> GetMonthlySessionWithImpact(int id, int year)
+    [HttpGet("GetMonthlySessionWithImpact/{id}/{month}/{year}")]
+    public List<CyclingSessionDTO> GetMonthlySessionWithImpact(int id, int month, int year)
     {
         Member member = _memberService.GetMemberWithSessions(id);
 
-        var sessionsByMonth = Enumerable.Range(1, 12)
-            .Select(month => new SessionsWithImpact
+        var cyclingSessions = member.CyclingSessions
+            .Where(c => c.Date.Year == year && c.Date.Month == month)
+            .Select(c => new CyclingSessionDTO
             {
-                Month = month,
-                cyclingSessions = member.CyclingSessions
-                    .Where(c => c.Date.Year == year && c.Date.Month == month)
-                    .Select(c => new CyclingSessionDTO
-                    {
-                        Id = c.Id,
-                        Date = c.Date,
-                        Duration = c.Duration,
-                        AvgWatt = c.AvgWatt,
-                        MaxWatt = c.MaxWatt,
-                        AvgCadence = c.AvgCadence,
-                        MaxCadence = c.MaxCadence,
-                        TrainingType = c.TrainingType,
-                        Impact = CalculateImpact(c.Duration, c.AvgWatt).ToString() 
-                    })
-                    .ToList(),
+                Id = c.Id,
+                Date = c.Date,
+                Duration = c.Duration,
+                AvgWatt = c.AvgWatt,
+                MaxWatt = c.MaxWatt,
+                AvgCadence = c.AvgCadence,
+                MaxCadence = c.MaxCadence,
+                TrainingType = c.TrainingType,
+                Impact = CalculateImpact(c.Duration, c.AvgWatt).ToString()
             })
             .ToList();
 
-        return sessionsByMonth;
+        return cyclingSessions;
     }
 
-    private Impact CalculateImpact(double duration, double avgWattage)
+    private Impact CalculateImpact(double duration, double avgWatt)
     {
-        if (avgWattage < 150)
+        if (avgWatt < 150)
         {
             if (duration <= 90)
             {
@@ -237,7 +231,7 @@ public class MemberController : ControllerBase
                 return Impact.Medium;
             }
         }
-        else if (avgWattage <= 200)
+        else if (avgWatt <= 200)
         {
             return Impact.Medium;
         }
@@ -246,5 +240,4 @@ public class MemberController : ControllerBase
             return Impact.High;
         }
     }
-
 }
