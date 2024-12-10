@@ -48,6 +48,17 @@ public class Member
         CyclingSessions = cyclingSessions;
         RunningSessions = runningSessions;
     }
+
+    public Member(string firstName, string lastName, string email, string city, DateTime birthday, List<string>? interests, MemberType memberType)
+    {
+        FirstName = firstName;
+        LastName = lastName;
+        Email = email;
+        City = city;
+        Birthday = birthday;
+        Interests = interests;
+        MemberType = memberType;
+    }
 }
 
 public enum MemberType

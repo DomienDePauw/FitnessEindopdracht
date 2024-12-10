@@ -43,13 +43,8 @@ public class EquipmentController : ControllerBase
     }
 
     [HttpPut("PutEquipmentInMaintenance/{id}")]
-    public IActionResult PutEquipmentInMaintenance(int id, [FromBody] EquipmentMaintenanceDTO dto)
+    public IActionResult PutEquipmentInMaintenance(int id)
     {
-        if (dto == null)
-        {
-            return BadRequest("Equipment data is required.");
-        }
-
         try
         {
             var existingEquipment = _equipmentService.GetEquipmentById(id);
@@ -58,7 +53,7 @@ public class EquipmentController : ControllerBase
                 return NotFound($"Equipment with ID {id} not found.");
             }
 
-            existingEquipment.IsAvailable = dto.IsAvailable;
+            existingEquipment.IsAvailable = false;
 
             _equipmentService.UpdateEquipment(id, existingEquipment);
 
@@ -68,6 +63,47 @@ public class EquipmentController : ControllerBase
         {
             return BadRequest(ex.Message);
         }
+    }
+
+    [HttpPut("PutEquipmentAvailable/{id}")]
+    public IActionResult PutEquipmentAvailable(int id)
+    {
+        try
+        {
+            var existingEquipment = _equipmentService.GetEquipmentById(id);
+            if (existingEquipment == null)
+            {
+                return NotFound($"Equipment with ID {id} not found.");
+            }
+
+            existingEquipment.IsAvailable = true;
+
+            _equipmentService.UpdateEquipment(id, existingEquipment);
+
+            return Ok("Equipment successfully updated.");
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
+    [HttpGet("GetAllAvailableEquipment")]
+    public IActionResult GetAllAvailableEquipment()
+    {
+        var equipment = _equipmentService.GetAllAvailableEquipment();
+        var equipmentDtos = equipment.Select(e => new EquipmentDTO
+        {
+            Id = e.Id,
+            Type = new EquipmentTypeDTO
+            {
+                Id = e.Type.Id,
+                Name = e.Type.Name,
+                Description = e.Type.Description
+            }
+        });
+
+        return Ok(equipmentDtos);
     }
 
 }

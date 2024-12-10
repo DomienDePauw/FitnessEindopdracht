@@ -21,6 +21,11 @@ public class EquipmentService
         _equipmentRepository.AddEquipment(equipment);
     }
 
+    public List<Equipment> GetAllAvailableEquipment()
+    {
+        return _equipmentRepository.GetAllAvailableEquipment();
+    }
+
     public Equipment GetEquipmentById(int id)
     {
         return _equipmentRepository.GetEquipmentById(id);

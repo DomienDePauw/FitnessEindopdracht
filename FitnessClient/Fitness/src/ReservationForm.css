@@ -1,0 +1,105 @@
+/* Algemene styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Formulier container */
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  max-width: 90%;
+}
+
+/* Formulier titel */
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+  font-size: 24px;
+}
+
+/* Labels */
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #555555;
+}
+
+/* Inputvelden en select dropdowns */
+form select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+form select:focus {
+  border-color: #007bff;
+}
+
+/* Knop */
+form button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Extra styling voor de container */
+form button:active {
+  transform: scale(0.98);
+}
+
+/* Datumveld styling */
+form input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+/* Focus effect voor datumveld */
+form input[type="date"]:focus {
+  border-color: #007bff;
+}
+
+/* Optioneel: Styling voor het 'niet-gekozen' staat */
+form input[type="date"]:invalid {
+  border-color: #dc3545; /* Rood wanneer er geen geldige datum is gekozen */
+}
+
+form input[type="date"]:valid {
+  border-color: #28a745; /* Groene rand wanneer een geldige datum is geselecteerd */
+}
+

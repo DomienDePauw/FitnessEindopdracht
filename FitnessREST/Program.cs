@@ -9,7 +9,6 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
-        // Configure CORS
         builder.Services.AddCors(options =>
         {
             options.AddPolicy("AllowReactApp", policy =>

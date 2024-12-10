@@ -21,25 +21,21 @@ public class MemberController : ControllerBase
     }
 
     [HttpPost("AddMember")]
-    public IActionResult CreateMember([FromBody] MemberDTO memberDto)
+    public IActionResult CreateMember([FromBody] MemberDTO m)
     {
-        if (memberDto == null)
+        if (m == null)
         {
             return BadRequest("Member data is required.");
         }
         var member = new Member(
-            id: 0,
-            firstName: memberDto.FirstName,
-            lastName: memberDto.LastName,
-            email: memberDto.Email,
-            city: memberDto.City,
-            birthday: memberDto.Birthday,
-            interests: memberDto.Interests ?? new List<string>(),
-            memberType: memberDto.MemberType,
-            fitnessPrograms: new List<FitnessProgram>(), 
-            reservations: new List<Reservation>(),
-            cyclingSessions: new List<CyclingSession>(),
-            runningSessions: new List<RunningSession>()
+
+            m.FirstName,
+            m.LastName,
+            m.Email,
+            m.City,
+            m.Birthday,
+            m.Interests,
+            m.MemberType
         );
         _memberService.AddMember(member);
         return Ok("Member successfully added.");
@@ -239,5 +235,12 @@ public class MemberController : ControllerBase
         {
             return Impact.High;
         }
+    }
+
+    [HttpGet("GetAllMembers")]
+    public List<Member> GetAllMembers()
+    {
+        var members = _memberService.GetAllMembers();
+        return members;
     }
 }

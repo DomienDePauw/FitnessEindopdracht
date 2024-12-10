@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 namespace FitnessBeheerDomain.Model;
 public class Reservation
 {
+    public Reservation()
+    {
+        
+    }
     public Reservation(int id, int memberId, int equipmentId, List<TimeSlot> timeSlots, DateOnly reservationDate)
     {
         Id = id;

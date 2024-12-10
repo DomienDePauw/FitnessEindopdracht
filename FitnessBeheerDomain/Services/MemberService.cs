@@ -40,4 +40,9 @@ public class MemberService
     {
         return _repository.GetMemberWithSessions(memberId);
     }
+
+    public List<Member> GetAllMembers()
+    {
+        return _repository.GetAllMembers();
+    }
 }

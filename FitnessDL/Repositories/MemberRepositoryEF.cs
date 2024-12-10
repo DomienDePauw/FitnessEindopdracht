@@ -75,4 +75,11 @@ public class MemberRepositoryEF : IMemberRepository
 
         return MapMember.MapToDomain(m);
     }
+
+    public List<Member> GetAllMembers() 
+    {
+        var members = _context.members.ToList();
+
+        return members.Select(m => MapMember.MapToDomain(m)).ToList();
+    }
 }

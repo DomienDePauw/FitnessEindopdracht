@@ -62,4 +62,13 @@ public class EquipmentRepositoryEF : IEquipmentRepository
         _context.SaveChanges();
     }
 
+    public List<Equipment> GetAllAvailableEquipment()
+    {
+        var equipmentEF = _context.equipment
+            .Include(e => e.Type)
+            .Where(e => e.IsAvailable)
+            .ToList();
+
+        return equipmentEF.Select(e => MapEquipment.MapToDomain(e)).ToList();
+    }
 }

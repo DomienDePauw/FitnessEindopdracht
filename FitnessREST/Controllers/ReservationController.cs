@@ -30,7 +30,7 @@ public class ReservationController : ControllerBase
                                     memberId: reservationDto.MemberId,
                                     equipmentId: reservationDto.EquipmentId,
                                     timeSlots: reservationDto.TimeSlots.Select(ts => new TimeSlot(
-                                    id: ts.Id,
+                                    id: 0,
                                     startTime: ts.StartTime
                                     )).ToList(),
                                     reservationDate: reservationDto.ReservationDate);
@@ -64,7 +64,7 @@ public class ReservationController : ControllerBase
             existingReservation.MemberId = reservationDto.MemberId;
             existingReservation.EquipmentId = reservationDto.EquipmentId;
             existingReservation.TimeSlots = reservationDto.TimeSlots.Select(ts => new TimeSlot(
-                id: ts.Id,
+                id: 0,
                 startTime: ts.StartTime
             )).ToList();
             existingReservation.ReservationDate = reservationDto.ReservationDate;
