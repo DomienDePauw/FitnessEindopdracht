@@ -8,6 +8,10 @@ using FitnessBeheerDomain.Exceptions;
 namespace FitnessBeheerDomain.Model;
 public class TimeSlot
 {
+    public TimeSlot()
+    {
+        
+    }
     public TimeSlot(int id, TimeOnly startTime)
     {
         if (startTime.Hour < 8 || startTime.Hour >= 22)
@@ -17,8 +21,8 @@ public class TimeSlot
         StartTime = startTime;
     }
 
-    public int Id { get; private set; }
-    public TimeOnly StartTime { get; private set; }
+    public int Id { get; set; }
+    public TimeOnly StartTime { get; set; }
     public TimeOnly EndTime => StartTime.AddHours(1);
     public string PartOfDay
     {

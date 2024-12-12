@@ -28,12 +28,12 @@ public class ReservationService
 
     private void ValidateReservation(Reservation reservation)
     {
-        if (reservation.ReservationDate < DateOnly.FromDateTime(DateTime.Now))
+        if (reservation.ReservationDate < DateOnly.FromDateTime(DateTime.Today))
         {
             throw new ReservationException("The reservation must be in the future.");
         }
 
-        if (reservation.ReservationDate > DateOnly.FromDateTime(DateTime.Now).AddDays(7))
+        if (reservation.ReservationDate > DateOnly.FromDateTime(DateTime.Today.AddDays(7)))
         {
             throw new ReservationException("The reservation cannot be more than 7 days in the future.");
         }
@@ -41,7 +41,7 @@ public class ReservationService
         var memberReservations = _reservationRepository.GetReservationsByDateAndMember(
             reservation.ReservationDate,
             reservation.MemberId
-        );
+        ) ?? new List<Reservation>();
 
         var totalSlotsForMember = memberReservations
             .SelectMany(r => r.TimeSlots)
@@ -52,23 +52,21 @@ public class ReservationService
             throw new ReservationException("A member can only reserve up to 4 time slots per day.");
         }
 
-        foreach (var existing in memberReservations.Where(r => r.EquipmentId == reservation.EquipmentId))
+        if (memberReservations
+            .Where(r => r.EquipmentId == reservation.EquipmentId)
+            .SelectMany(r => r.TimeSlots)
+            .Any(existingSlot => reservation.TimeSlots.Any(slot => slot.OverlapsWith(existingSlot))))
         {
-            foreach (var slot in reservation.TimeSlots)
-            {
-                if (existing.TimeSlots.Any(existingSlot => slot.OverlapsWith(existingSlot)))
-                {
-                    throw new ReservationException("This equipment is already reserved for the selected time slot.");
-                }
-            }
+            throw new ReservationException("This equipment is already reserved for the selected time slot.");
         }
 
-        var allReservationsForDate = _reservationRepository.GetReservationsByDate(reservation.ReservationDate);
+        var allReservationsForDate = _reservationRepository.GetReservationsByDate(reservation.ReservationDate) ?? new List<Reservation>();
         if (!ValidateTimeSlot(allReservationsForDate.Concat(new[] { reservation }).ToList()))
         {
             throw new ReservationException("Cannot reserve more than 2 consecutive time slots for the same equipment.");
         }
     }
+
 
     public bool ValidateTimeSlot(List<Reservation> reservations)
     {
