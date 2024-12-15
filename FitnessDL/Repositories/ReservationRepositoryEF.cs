@@ -2,6 +2,7 @@
 using FitnessBeheerDomain.Interfaces;
 using FitnessBeheerDomain.Model;
 using FitnessBeheerEFlayer.Mappers;
+using FitnessBeheerEFlayer.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace FitnessBeheerEFlayer.Repositories;

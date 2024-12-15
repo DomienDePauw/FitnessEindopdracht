@@ -50,13 +50,16 @@ public class ReservationService
 
         if (memberReservations
             .Where(r => r.EquipmentId == reservation.EquipmentId)
-            .Any(r => r.TimeSlot.OverlapsWith(reservation.TimeSlot)))
+            .Any(existingReservation => existingReservation.TimeSlot.OverlapsWith(reservation.TimeSlot)))
         {
             throw new ReservationException("This equipment is already reserved for the selected time slot.");
         }
 
         var allReservationsForDate = _reservationRepository.GetReservationsByDate(reservation.ReservationDate) ?? new List<Reservation>();
-        if (!ValidateTimeSlot(allReservationsForDate.Concat(new[] { reservation }).ToList()))
+
+        var reservationsWithNew = allReservationsForDate.Concat(new[] { reservation }).ToList();
+
+        if (!ValidateTimeSlot(reservationsWithNew))
         {
             throw new ReservationException("Cannot reserve more than 2 consecutive time slots for the same equipment.");
         }
@@ -66,19 +69,21 @@ public class ReservationService
     {
         var equipmentGroups = reservations
             .GroupBy(r => new { r.EquipmentId, r.ReservationDate })
-            .ToDictionary(
-                g => g.Key,
-                g => g.Select(r => r.TimeSlot).OrderBy(s => s.StartTime).ToList()
-            );
+            .ToList();
 
         foreach (var equipmentGroup in equipmentGroups)
         {
-            int successiveTimeSlots = 1;
+            var sortedTimeSlots = equipmentGroup
+                .Select(r => r.TimeSlot)
+                .OrderBy(s => s.StartTime)
+                .ToList();
 
-            for (int i = 1; i < equipmentGroup.Value.Count; i++)
+            int successiveTimeSlots = 1; 
+
+            for (int i = 1; i < sortedTimeSlots.Count; i++)
             {
-                var previousSlot = equipmentGroup.Value[i - 1];
-                var currentSlot = equipmentGroup.Value[i];
+                var previousSlot = sortedTimeSlots[i - 1];
+                var currentSlot = sortedTimeSlots[i];
 
                 if (currentSlot.StartTime == previousSlot.StartTime.AddHours(1))
                 {
@@ -86,12 +91,12 @@ public class ReservationService
                 }
                 else
                 {
-                    successiveTimeSlots = 1;
+                    successiveTimeSlots = 1; 
                 }
 
                 if (successiveTimeSlots > 2)
                 {
-                    return false;
+                    return false; 
                 }
             }
         }

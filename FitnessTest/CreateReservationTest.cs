@@ -19,12 +19,9 @@ namespace FitnessBeheerDomain.Tests
                 MemberId = 1,
                 EquipmentId = 1,
                 ReservationDate = DateOnly.FromDateTime(DateTime.Now.AddDays(-1)),
-                TimeSlots = new List<TimeSlot>
+                TimeSlot = new TimeSlot
                 {
-                    new TimeSlot
-                    {
-                        StartTime = new TimeOnly(10, 0)
-                    }
+                    StartTime = new TimeOnly(10, 0)
                 }
             };
 
@@ -43,12 +40,9 @@ namespace FitnessBeheerDomain.Tests
                 MemberId = 1,
                 EquipmentId = 1,
                 ReservationDate = DateOnly.FromDateTime(DateTime.Now.AddDays(1)),
-                TimeSlots = new List<TimeSlot>
+                TimeSlot = new TimeSlot
                 {
-                    new TimeSlot
-                    {
-                        StartTime = new TimeOnly(10, 0)
-                    }
+                    StartTime = new TimeOnly(10, 0)
                 }
             };
 
@@ -60,14 +54,13 @@ namespace FitnessBeheerDomain.Tests
 
             reservationService.AddReservation(reservation);
 
-                reservationRepositoryMock.Verify(r => r.AddReservation(It.Is<Reservation>(res =>
+            reservationRepositoryMock.Verify(r => r.AddReservation(It.Is<Reservation>(res =>
                 res.MemberId == reservation.MemberId &&
                 res.EquipmentId == reservation.EquipmentId &&
                 res.ReservationDate == reservation.ReservationDate &&
-                res.TimeSlots.Count == reservation.TimeSlots.Count &&
-                res.TimeSlots[0].StartTime == reservation.TimeSlots[0].StartTime
-                )), Times.Once);
-
+                res.TimeSlot.StartTime == reservation.TimeSlot.StartTime
+            )), Times.Once);
         }
+
     }
 }
