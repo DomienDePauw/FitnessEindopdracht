@@ -14,7 +14,7 @@ public static class MapReservation
         db.EquipmentId,
         db.Id,
         db.MemberId,
-        db.TimeSlots.Select(MapTimeSlot.MapToDomain).ToList(),
+        MapTimeSlot.MapToDomain(db.TimeSlot),
         db.Date);
 
     public static ReservationEF MapToEF(Reservation reservation)
@@ -25,9 +25,7 @@ public static class MapReservation
             EquipmentId = reservation.EquipmentId,
             MemberId = reservation.MemberId,
             Date = reservation.ReservationDate,
-            TimeSlots = reservation.TimeSlots
-                .Select(MapTimeSlot.MapToEF)
-                .ToList()
+            TimeSlot = MapTimeSlot.MapToEF(reservation.TimeSlot)
         };
     }
 }

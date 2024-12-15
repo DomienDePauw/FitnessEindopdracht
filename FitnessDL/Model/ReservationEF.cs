@@ -14,7 +14,7 @@ public class ReservationEF
     public int Id { get; set; }
     public int EquipmentId { get; set; }
     public EquipmentEF Equipment { get; set; }
-    public ICollection<TimeSlotEF> TimeSlots { get; set; }
+    public TimeSlotEF TimeSlot { get; set; }
     public DateOnly Date { get; set; }
     public int MemberId { get; set; }
     public MemberEF Member { get; set; }

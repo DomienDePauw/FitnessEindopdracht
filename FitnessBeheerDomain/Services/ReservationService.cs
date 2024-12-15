@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using FitnessBeheerDomain.Interfaces;
 using FitnessBeheerDomain.Exceptions;
 using FitnessBeheerDomain.Model;
@@ -16,11 +14,13 @@ public class ReservationService
     {
         _reservationRepository = reservationRepository;
     }
+
     public void AddReservation(Reservation reservation)
     {
         ValidateReservation(reservation);
         _reservationRepository.AddReservation(reservation);
     }
+
     public void DeleteReservation(int id)
     {
         _reservationRepository.DeleteReservation(id);
@@ -43,19 +43,14 @@ public class ReservationService
             reservation.MemberId
         ) ?? new List<Reservation>();
 
-        var totalSlotsForMember = memberReservations
-            .SelectMany(r => r.TimeSlots)
-            .Count();
-
-        if (totalSlotsForMember + reservation.TimeSlots.Count > 4)
+        if (memberReservations.Count >= 4)
         {
             throw new ReservationException("A member can only reserve up to 4 time slots per day.");
         }
 
         if (memberReservations
             .Where(r => r.EquipmentId == reservation.EquipmentId)
-            .SelectMany(r => r.TimeSlots)
-            .Any(existingSlot => reservation.TimeSlots.Any(slot => slot.OverlapsWith(existingSlot))))
+            .Any(r => r.TimeSlot.OverlapsWith(reservation.TimeSlot)))
         {
             throw new ReservationException("This equipment is already reserved for the selected time slot.");
         }
@@ -67,12 +62,14 @@ public class ReservationService
         }
     }
 
-
     public bool ValidateTimeSlot(List<Reservation> reservations)
     {
         var equipmentGroups = reservations
             .GroupBy(r => new { r.EquipmentId, r.ReservationDate })
-            .ToDictionary(g => g.Key, g => g.SelectMany(r => r.TimeSlots).OrderBy(s => s.StartTime).ToList());
+            .ToDictionary(
+                g => g.Key,
+                g => g.Select(r => r.TimeSlot).OrderBy(s => s.StartTime).ToList()
+            );
 
         foreach (var equipmentGroup in equipmentGroups)
         {
@@ -107,9 +104,8 @@ public class ReservationService
         return _reservationRepository.GetReservationById(id);
     }
 
-    public void UpdateReservation(int id,Reservation existingReservation)
+    public void UpdateReservation(int id, Reservation existingReservation)
     {
         _reservationRepository.UpdateReservation(id, existingReservation);
     }
 }
-

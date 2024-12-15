@@ -9,7 +9,7 @@ const ReservationForm = () => {
   const [selectedTimeSlot, setSelectedTimeSlot] = useState("");
   const [selectedDate, setSelectedDate] = useState("");
   const [showPopup, setShowPopup] = useState(false);
-  const [popupMessage, setPopupMessage] = useState("");  // Corrected from 'confirmationMessage'
+  const [popupMessage, setPopupMessage] = useState("");
 
   const timeslots = Array.from({ length: 10 }, (_, i) => `${12 + i}:00`);
 
@@ -47,12 +47,14 @@ const ReservationForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+  
     const reservation = {
       memberId: selectedMember,
       equipmentId: selectedEquipment,
-      timeSlots: [{ startTime: `${selectedTimeSlot}:00` }],
+      timeSlot: { startTime: `${selectedTimeSlot}:00` }, 
       reservationDate: selectedDate,
     };
+  
     try {
       const response = await fetch("http://localhost:5151/api/Reservation/AddReservation", {
         method: "POST",
@@ -61,29 +63,29 @@ const ReservationForm = () => {
         },
         body: JSON.stringify(reservation),
       });
-
+  
       const responseText = await response.text();
       console.log("Response text from back-end:", responseText);
-
+  
       if (!response.ok) {
         throw new Error("Fout bij het maken van de reservering: " + responseText);
       }
-
+  
       let result;
       try {
         result = JSON.parse(responseText);
       } catch {
         result = { message: responseText };
       }
-
+  
       console.log("Reservering succesvol:", result);
-
+  
       const reservedEquipment = equipment.find((e) => e.id === parseInt(selectedEquipment));
       setPopupMessage(
         `Reservering succesvol! Klantnummer: ${selectedMember}, Gereserveerde apparatuur: ${reservedEquipment?.name}.`
       );
       setShowPopup(true);
-
+  
       setSelectedMember("");
       setSelectedEquipment("");
       setSelectedTimeSlot("");
@@ -93,7 +95,7 @@ const ReservationForm = () => {
       setPopupMessage("Er is iets misgegaan bij het maken van de reservering.");
       setShowPopup(true);
     }
-  };
+  };  
   return (
     <div>
       <form onSubmit={handleSubmit}>

@@ -15,7 +15,6 @@ public static class MapCyclingSession
         MaxCadence = db.Max_Cadence,
         TrainingType = db.TrainingType,
         Comment = db.Comment,
-        //Member = MapMember.MapToDomain(db.Member)
     };
 
     public static CyclingSessionEF MapToEF(CyclingSession domain) => new CyclingSessionEF
@@ -29,6 +28,5 @@ public static class MapCyclingSession
         Max_Cadence = domain.MaxCadence,
         TrainingType = domain.TrainingType,
         Comment = domain.Comment,
-        //Member = MapMember.MapToEF(domain.Member)
     };
 }

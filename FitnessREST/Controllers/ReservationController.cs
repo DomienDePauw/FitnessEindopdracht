@@ -1,10 +1,8 @@
-﻿using FitnessBeheerDomain.Model;
+﻿using FitnessBeheerDomain.Exceptions;
+using FitnessBeheerDomain.Model;
 using FitnessBeheerDomain.Services;
 using FitnessREST.DTO;
 using Microsoft.AspNetCore.Mvc;
-using FitnessBeheerDomain.Exceptions;
-
-namespace FitnessREST.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -25,15 +23,22 @@ public class ReservationController : ControllerBase
             return BadRequest("Reservation data is required.");
         }
 
+        if (reservationDto.TimeSlot == null)
+        {
+            return BadRequest("A single TimeSlot is required.");
+        }
+
         var reservation = new Reservation(
-                                    id: 0,
-                                    memberId: reservationDto.MemberId,
-                                    equipmentId: reservationDto.EquipmentId,
-                                    timeSlots: reservationDto.TimeSlots.Select(ts => new TimeSlot(
-                                    id: 0,
-                                    startTime: ts.StartTime
-                                    )).ToList(),
-                                    reservationDate: reservationDto.ReservationDate);
+            id: 0,
+            memberId: reservationDto.MemberId,
+            equipmentId: reservationDto.EquipmentId,
+            timeSlot: new TimeSlot(
+                id: 0,
+                startTime: reservationDto.TimeSlot.StartTime
+            ),
+            reservationDate: reservationDto.ReservationDate
+        );
+
         _reservationService.AddReservation(reservation);
         return Ok("Reservation successfully added.");
     }
@@ -46,11 +51,16 @@ public class ReservationController : ControllerBase
     }
 
     [HttpPut("UpdateReservation/{id}")]
-    public IActionResult UpdateReservation(int id, ReservationDTO reservationDto)
+    public IActionResult UpdateReservation(int id, [FromBody] ReservationDTO reservationDto)
     {
         if (reservationDto == null)
         {
             return BadRequest("Reservation data is required.");
+        }
+
+        if (reservationDto.TimeSlot == null)
+        {
+            return BadRequest("A single TimeSlot is required.");
         }
 
         try
@@ -63,13 +73,15 @@ public class ReservationController : ControllerBase
 
             existingReservation.MemberId = reservationDto.MemberId;
             existingReservation.EquipmentId = reservationDto.EquipmentId;
-            existingReservation.TimeSlots = reservationDto.TimeSlots.Select(ts => new TimeSlot(
-                id: 0,
-                startTime: ts.StartTime
-            )).ToList();
+            existingReservation.TimeSlot = 
+                new TimeSlot(
+                id: existingReservation.TimeSlot.Id,
+                startTime: reservationDto.TimeSlot.StartTime
+                );
+
             existingReservation.ReservationDate = reservationDto.ReservationDate;
 
-            _reservationService.UpdateReservation(id ,existingReservation);
+            _reservationService.UpdateReservation(id, existingReservation);
             return Ok("Reservation successfully updated.");
         }
         catch (ReservationException ex)

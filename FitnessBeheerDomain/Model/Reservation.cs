@@ -13,19 +13,19 @@ public class Reservation
     {
         
     }
-    public Reservation(int id, int memberId, int equipmentId, List<TimeSlot> timeSlots, DateOnly reservationDate)
+    public Reservation(int id, int memberId, int equipmentId, TimeSlot timeSlot, DateOnly reservationDate)
     {
         Id = id;
         MemberId = memberId;
         EquipmentId = equipmentId;
-        TimeSlots = timeSlots;
+        TimeSlot = timeSlot;
         ReservationDate = reservationDate;
     }
 
     public int Id { get; private set; }
     public int MemberId { get; set; }
     public int EquipmentId { get;  set; }
-    public List<TimeSlot> TimeSlots { get; set; } = new List<TimeSlot>();
+    public TimeSlot TimeSlot { get; set; }
     public DateOnly ReservationDate { get; set; }
 }
 
