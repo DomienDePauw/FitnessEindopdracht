@@ -28,12 +28,12 @@ public class ReservationService
 
     private void ValidateReservation(Reservation reservation)
     {
-        if (reservation.ReservationDate < DateOnly.FromDateTime(DateTime.Today))
+        if (reservation.ReservationDate < DateOnly.FromDateTime(DateTime.Now))
         {
             throw new ReservationException("The reservation must be in the future.");
         }
 
-        if (reservation.ReservationDate > DateOnly.FromDateTime(DateTime.Today.AddDays(7)))
+        if (reservation.ReservationDate > DateOnly.FromDateTime(DateTime.Now).AddDays(7))
         {
             throw new ReservationException("The reservation cannot be more than 7 days in the future.");
         }
@@ -41,25 +41,40 @@ public class ReservationService
         var memberReservations = _reservationRepository.GetReservationsByDateAndMember(
             reservation.ReservationDate,
             reservation.MemberId
-        ) ?? new List<Reservation>();
+        );
 
         if (memberReservations.Count >= 4)
         {
             throw new ReservationException("A member can only reserve up to 4 time slots per day.");
         }
 
+<<<<<<< HEAD
         if (memberReservations
             .Where(r => r.EquipmentId == reservation.EquipmentId)
             .Any(existingReservation => existingReservation.TimeSlot.OverlapsWith(reservation.TimeSlot)))
+=======
+        foreach (var existing in memberReservations.Where(r => r.EquipmentId == reservation.EquipmentId))
+>>>>>>> parent of fd6ebdf (Front-end fitness)
         {
-            throw new ReservationException("This equipment is already reserved for the selected time slot.");
+            foreach (var slot in reservation.TimeSlots)
+            {
+                if (existing.TimeSlots.Any(existingSlot => slot.OverlapsWith(existingSlot)))
+                {
+                    throw new ReservationException("This equipment is already reserved for the selected time slot.");
+                }
+            }
         }
 
+<<<<<<< HEAD
         var allReservationsForDate = _reservationRepository.GetReservationsByDate(reservation.ReservationDate) ?? new List<Reservation>();
 
         var reservationsWithNew = allReservationsForDate.Concat(new[] { reservation }).ToList();
 
         if (!ValidateTimeSlot(reservationsWithNew))
+=======
+        var allReservationsForDate = _reservationRepository.GetReservationsByDate(reservation.ReservationDate);
+        if (!ValidateTimeSlot(allReservationsForDate.Concat(new[] { reservation }).ToList()))
+>>>>>>> parent of fd6ebdf (Front-end fitness)
         {
             throw new ReservationException("Cannot reserve more than 2 consecutive time slots for the same equipment.");
         }

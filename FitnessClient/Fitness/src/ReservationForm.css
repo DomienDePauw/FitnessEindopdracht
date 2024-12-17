@@ -103,38 +103,3 @@ form input[type="date"]:valid {
   border-color: #28a745; /* Groene rand wanneer een geldige datum is geselecteerd */
 }
 
-.popup {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-.popup-content {
-  background: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  text-align: center;
-}
-
-.popup-content p {
-  margin: 0 0 20px;
-}
-
-.popup-content button {
-  background: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-
