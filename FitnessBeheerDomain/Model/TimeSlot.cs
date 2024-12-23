@@ -12,13 +12,14 @@ public class TimeSlot
     {
         
     }
-    public TimeSlot(int id, TimeOnly startTime)
+    public TimeSlot(int id, TimeOnly startTime, int equipmentId)
     {
         if (startTime.Hour < 8 || startTime.Hour >= 22)
             throw new TimeSlotException("StartTime must be between 08:00 and 22:00.");
 
         Id = id;
         StartTime = startTime;
+        EquipmentId = equipmentId;
     }
 
     public int Id { get; set; }
@@ -37,7 +38,7 @@ public class TimeSlot
                 return "Evening";
         }
     }
-
+    public int EquipmentId { get; set; }
     public bool OverlapsWith(TimeSlot other)
     {
         return StartTime < other.EndTime && EndTime > other.StartTime;

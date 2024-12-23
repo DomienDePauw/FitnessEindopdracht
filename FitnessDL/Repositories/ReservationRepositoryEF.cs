@@ -84,7 +84,6 @@ public class ReservationRepositoryEF : IReservationRepository
         }
 
         reservation.MemberId = updatedReservation.MemberId;
-        reservation.EquipmentId = updatedReservation.EquipmentId;
         reservation.Date = updatedReservation.ReservationDate;
 
         foreach (var timeSlot in reservation.TimeSlots.ToList())

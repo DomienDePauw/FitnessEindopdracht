@@ -14,5 +14,7 @@ public class TimeSlotEF
     public TimeOnly StartTime { get; set; }
     public TimeOnly EndTime { get; set; }
     public string PartOfDay { get; set; }
+    public int EquipmentId { get; set; }
+    public EquipmentEF Equipment { get; set; }
     public ICollection<ReservationEF> Reservations { get; set; }
 }

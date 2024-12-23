@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace FitnessBeheerEFlayer.Mappers;
 public static class MapTimeSlot
 {
-    public static TimeSlot MapToDomain(TimeSlotEF db) => new TimeSlot(db.Id, db.StartTime);
+    public static TimeSlot MapToDomain(TimeSlotEF db) => new TimeSlot(db.Id, db.StartTime, db.EquipmentId);
 
     public static TimeSlotEF MapToEF(TimeSlot timeSlot)
     {
@@ -18,7 +18,8 @@ public static class MapTimeSlot
             Id = timeSlot.Id,
             StartTime = timeSlot.StartTime,
             EndTime = timeSlot.EndTime,
-            PartOfDay = timeSlot.PartOfDay
+            PartOfDay = timeSlot.PartOfDay,
+            EquipmentId = timeSlot.EquipmentId,
         };
     }
 }

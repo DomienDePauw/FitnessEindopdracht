@@ -6,6 +6,7 @@ using FitnessBeheerDomain.Exceptions;
 using System;
 using System.Collections.Generic;
 using FitnessBeheerDomain.Interfaces;
+using FitnessBeheerEFlayer.Model;
 
 namespace FitnessBeheerDomain.Tests
 {
@@ -17,13 +18,13 @@ namespace FitnessBeheerDomain.Tests
             var reservation = new Reservation
             {
                 MemberId = 1,
-                EquipmentId = 1,
                 ReservationDate = DateOnly.FromDateTime(DateTime.Now.AddDays(-1)),
                 TimeSlots = new List<TimeSlot>
                 {
                     new TimeSlot
                     {
-                        StartTime = new TimeOnly(10, 0)
+                        StartTime = new TimeOnly(10, 0),
+                                        EquipmentId = 1
                     }
                 }
             };
@@ -41,13 +42,13 @@ namespace FitnessBeheerDomain.Tests
             var reservation = new Reservation
             {
                 MemberId = 1,
-                EquipmentId = 1,
                 ReservationDate = DateOnly.FromDateTime(DateTime.Now.AddDays(1)),
                 TimeSlots = new List<TimeSlot>
                 {
                     new TimeSlot
                     {
-                        StartTime = new TimeOnly(10, 0)
+                        StartTime = new TimeOnly(10, 0),
+                                        EquipmentId = 1
                     }
                 }
             };
@@ -62,10 +63,10 @@ namespace FitnessBeheerDomain.Tests
 
                 reservationRepositoryMock.Verify(r => r.AddReservation(It.Is<Reservation>(res =>
                 res.MemberId == reservation.MemberId &&
-                res.EquipmentId == reservation.EquipmentId &&
                 res.ReservationDate == reservation.ReservationDate &&
                 res.TimeSlots.Count == reservation.TimeSlots.Count &&
-                res.TimeSlots[0].StartTime == reservation.TimeSlots[0].StartTime
+                res.TimeSlots[0].StartTime == reservation.TimeSlots[0].StartTime &&
+                res.TimeSlots[0].EquipmentId == reservation.TimeSlots[0].EquipmentId
                 )), Times.Once);
 
         }

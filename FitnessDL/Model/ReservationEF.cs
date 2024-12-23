@@ -12,8 +12,6 @@ public class ReservationEF
 {
     [Key]
     public int Id { get; set; }
-    public int EquipmentId { get; set; }
-    public EquipmentEF Equipment { get; set; }
     public ICollection<TimeSlotEF> TimeSlots { get; set; }
     public DateOnly Date { get; set; }
     public int MemberId { get; set; }

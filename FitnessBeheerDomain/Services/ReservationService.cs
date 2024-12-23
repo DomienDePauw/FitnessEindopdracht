@@ -53,9 +53,8 @@ public class ReservationService
         }
 
         if (memberReservations
-            .Where(r => r.EquipmentId == reservation.EquipmentId)
             .SelectMany(r => r.TimeSlots)
-            .Any(existingSlot => reservation.TimeSlots.Any(slot => slot.OverlapsWith(existingSlot))))
+            .Any(timeslot => reservation.TimeSlots.Any(t => timeslot.OverlapsWith(t) && t.EquipmentId == timeslot.EquipmentId)))
         {
             throw new ReservationException("This equipment is already reserved for the selected time slot.");
         }
@@ -71,8 +70,18 @@ public class ReservationService
     public bool ValidateTimeSlot(List<Reservation> reservations)
     {
         var equipmentGroups = reservations
-            .GroupBy(r => new { r.EquipmentId, r.ReservationDate })
-            .ToDictionary(g => g.Key, g => g.SelectMany(r => r.TimeSlots).OrderBy(s => s.StartTime).ToList());
+            .SelectMany(r => r.TimeSlots.Select(ts => new
+            {
+                ts.EquipmentId,
+                r.ReservationDate,
+                ts.StartTime,
+                ts.EndTime
+            }))
+            .GroupBy(x => new { x.EquipmentId, x.ReservationDate })
+            .ToDictionary(
+                g => g.Key,
+                g => g.OrderBy(s => s.StartTime).ToList()
+            );
 
         foreach (var equipmentGroup in equipmentGroups)
         {

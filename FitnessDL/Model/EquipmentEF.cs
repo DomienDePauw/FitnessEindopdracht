@@ -13,5 +13,5 @@ public class EquipmentEF
     public int Id { get; set; }
     public EquipmentTypeEF Type { get; set; }
     public bool IsAvailable { get; set; }
-    public ICollection<ReservationEF> Reservations { get; set; }
+    public ICollection<TimeSlotEF> TimeSlots { get; set; }
 }

@@ -11,7 +11,6 @@ public static class MapReservation
 {
     public static Reservation MapToDomain(ReservationEF db) =>
         new Reservation(
-        db.EquipmentId,
         db.Id,
         db.MemberId,
         db.TimeSlots.Select(MapTimeSlot.MapToDomain).ToList(),
@@ -22,7 +21,6 @@ public static class MapReservation
         return new ReservationEF
         {
             Id = reservation.Id,
-            EquipmentId = reservation.EquipmentId,
             MemberId = reservation.MemberId,
             Date = reservation.ReservationDate,
             TimeSlots = reservation.TimeSlots
