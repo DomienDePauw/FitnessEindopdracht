@@ -168,27 +168,28 @@ public class MemberController : ControllerBase
     {
         Member member = _memberService.GetMemberWithSessions(id);
 
-        var cyclingSessions = member.CyclingSessions
+        var cyclingSessionsByType = member.CyclingSessions
             .Where(c => c.Date.Year == year)
-            .GroupBy(c => c.Date.Month)
-            .ToDictionary(g => g.Key, g => g.Count());
-
-        var runningSessions = member.RunningSessions
-            .Where(r => r.Date.Year == year)
-            .GroupBy(r => r.Date.Month)
-            .ToDictionary(g => g.Key, g => g.Count());
+            .GroupBy(c => new { c.Date.Month, c.TrainingType })
+            .ToDictionary(
+                g => g.Key,
+                g => g.Count()
+            );
 
         var result = Enumerable.Range(1, 12)
             .Select(month => new SessionsOverviewDTO
             {
                 Month = month,
-                CyclingSessionCount = cyclingSessions.GetValueOrDefault(month, 0),
-                RunningSessionCount = runningSessions.GetValueOrDefault(month, 0)
+                FunCyclingCount = cyclingSessionsByType.GetValueOrDefault(new { Month = month, TrainingType = "fun" }, 0),
+                EnduranceCyclingCount = cyclingSessionsByType.GetValueOrDefault(new { Month = month, TrainingType = "endurance" }, 0),
+                IntervalCyclingCount = cyclingSessionsByType.GetValueOrDefault(new { Month = month, TrainingType = "interval" }, 0),
+                RecoveryCyclingCount = cyclingSessionsByType.GetValueOrDefault(new { Month = month, TrainingType = "recovery" }, 0),
             })
             .ToList();
 
         return result;
     }
+
 
     [HttpGet("GetMonthlySessionWithImpact/{id}/{month}/{year}")]
     public List<CyclingSessionDTO> GetMonthlySessionWithImpact(int id, int month, int year)
