@@ -237,11 +237,4 @@ public class MemberController : ControllerBase
             return Impact.High;
         }
     }
-
-    [HttpGet("GetAllMembers")]
-    public List<Member> GetAllMembers()
-    {
-        var members = _memberService.GetAllMembers();
-        return members;
-    }
 }

@@ -13,10 +13,12 @@ namespace FitnessREST.Controllers;
 public class EquipmentController : ControllerBase
 {
     private readonly EquipmentService _equipmentService;
+    private readonly ReservationService _reservationService;
 
-    public EquipmentController(EquipmentService equipmentService)
+    public EquipmentController(EquipmentService equipmentService, ReservationService reservationService)
     {
         _equipmentService = equipmentService;
+        _reservationService = reservationService;
     }
 
     [HttpPost("AddEquipment")]

@@ -13,5 +13,4 @@ public interface IMemberRepository
     Member GetMemberWithDetails(int id);
     void UpdateMember(int memberId, Member updatedMember);
     Member GetMemberWithSessions(int memberId);
-    List<Member> GetAllMembers();
 }
