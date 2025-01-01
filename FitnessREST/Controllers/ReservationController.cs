@@ -55,21 +55,21 @@ public class ReservationController : ControllerBase
 
         try
         {
-            var existingReservation = _reservationService.GetReservationById(id);
-            if (existingReservation == null)
+            var reservation = _reservationService.GetReservationById(id);
+            if (reservation == null)
             {
                 return NotFound($"Reservation with ID {id} not found.");
             }
 
-            existingReservation.MemberId = reservationDto.MemberId;
-            existingReservation.TimeSlots = reservationDto.TimeSlots.Select(ts => new TimeSlot(
+            reservation.MemberId = reservationDto.MemberId;
+            reservation.TimeSlots = reservationDto.TimeSlots.Select(ts => new TimeSlot(
                 id: 0,
                 startTime: ts.StartTime,
                 equipmentId: ts.EquipmentId
             )).ToList();
-            existingReservation.ReservationDate = reservationDto.ReservationDate;
+            reservation.ReservationDate = reservationDto.ReservationDate;
 
-            _reservationService.UpdateReservation(id ,existingReservation);
+            _reservationService.UpdateReservation(id , reservation);
             return Ok("Reservation successfully updated.");
         }
         catch (ReservationException ex)

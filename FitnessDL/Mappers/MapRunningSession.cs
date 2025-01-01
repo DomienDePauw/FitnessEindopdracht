@@ -15,7 +15,6 @@ public static class MapRunningSession
         Date = ef.Date,
         Duration = ef.Duration,
         AvgSpeed = ef.Avg_Speed,
-        //Member = MapMember.MapToDomain(ef.Member),
         Details = ef.Details?.Select(MapRunningSessionDetail.MapToDomain).ToList() ?? new List<RunningSessionDetail>()
     };
 
@@ -25,7 +24,6 @@ public static class MapRunningSession
         Date = domain.Date,
         Duration = domain.Duration,
         Avg_Speed = domain.AvgSpeed,
-        //Member = MapMember.MapToEF(domain.Member),
         Details = domain.Details?.Select(MapRunningSessionDetail.MapToEF).ToList()
     };
 }

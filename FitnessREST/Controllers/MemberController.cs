@@ -208,33 +208,12 @@ public class MemberController : ControllerBase
                 AvgCadence = c.AvgCadence,
                 MaxCadence = c.MaxCadence,
                 TrainingType = c.TrainingType,
-                Impact = CalculateImpact(c.Duration, c.AvgWatt).ToString()
+                Impact = c.AvgWatt < 150
+                        ? (c.Duration <= 90 ? "Low" : "Medium")
+                        : (c.AvgWatt <= 200 ? "Medium" : "High")
             })
             .ToList();
 
         return cyclingSessions;
-    }
-
-    private Impact CalculateImpact(double duration, double avgWatt)
-    {
-        if (avgWatt < 150)
-        {
-            if (duration <= 90)
-            {
-                return Impact.Low;
-            }
-            else
-            {
-                return Impact.Medium;
-            }
-        }
-        else if (avgWatt <= 200)
-        {
-            return Impact.Medium;
-        }
-        else
-        {
-            return Impact.High;
-        }
     }
 }

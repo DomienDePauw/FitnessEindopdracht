@@ -49,15 +49,15 @@ public class EquipmentController : ControllerBase
     {
         try
         {
-            var existingEquipment = _equipmentService.GetEquipmentById(id);
-            if (existingEquipment == null)
+            var eq = _equipmentService.GetEquipmentById(id);
+            if (eq == null)
             {
                 return NotFound($"Equipment with ID {id} not found.");
             }
 
-            existingEquipment.IsAvailable = false;
+            eq.IsAvailable = false;
 
-            _equipmentService.UpdateEquipment(id, existingEquipment);
+            _equipmentService.UpdateEquipment(id, eq);
 
             return Ok("Equipment successfully updated.");
         }
@@ -72,15 +72,15 @@ public class EquipmentController : ControllerBase
     {
         try
         {
-            var existingEquipment = _equipmentService.GetEquipmentById(id);
-            if (existingEquipment == null)
+            var eq = _equipmentService.GetEquipmentById(id);
+            if (eq == null)
             {
                 return NotFound($"Equipment with ID {id} not found.");
             }
 
-            existingEquipment.IsAvailable = true;
+            eq.IsAvailable = true;
 
-            _equipmentService.UpdateEquipment(id, existingEquipment);
+            _equipmentService.UpdateEquipment(id, eq);
 
             return Ok("Equipment successfully updated.");
         }
@@ -93,8 +93,8 @@ public class EquipmentController : ControllerBase
     [HttpGet("GetAllAvailableEquipment")]
     public IActionResult GetAllAvailableEquipment()
     {
-        var equipment = _equipmentService.GetAllAvailableEquipment();
-        var equipmentDtos = equipment.Select(e => new EquipmentDTO
+        var eq = _equipmentService.GetAllAvailableEquipment();
+        var equipmentDtos = eq.Select(e => new EquipmentDTO
         {
             Id = e.Id,
             Type = new EquipmentTypeDTO

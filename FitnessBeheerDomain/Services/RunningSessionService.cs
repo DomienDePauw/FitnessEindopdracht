@@ -20,6 +20,4 @@ public class RunningSessionService
     {
         return _runningSessionRepository.GetRunningSessionById(id);
     }
-
-
 }
