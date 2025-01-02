@@ -21,21 +21,21 @@ public class MemberController : ControllerBase
     }
 
     [HttpPost("AddMember")]
-    public IActionResult CreateMember([FromBody] MemberDTO m)
+    public IActionResult CreateMember([FromBody] MemberDTO memberDto)
     {
-        if (m == null)
+        if (memberDto == null)
         {
             return BadRequest("Member data is required.");
         }
         var member = new Member(
 
-            m.FirstName,
-            m.LastName,
-            m.Email,
-            m.City,
-            m.Birthday,
-            m.Interests,
-            m.MemberType
+            memberDto.FirstName,
+            memberDto.LastName,
+            memberDto.Email,
+            memberDto.City,
+            memberDto.Birthday,
+            memberDto.Interests,
+            memberDto.MemberType
         );
         _memberService.AddMember(member);
         return Ok("Member successfully added.");

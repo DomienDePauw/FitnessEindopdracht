@@ -4,9 +4,8 @@ import "../ReservationForm.css";
 const ReservationForm = () => {
   const [equipment, setEquipment] = useState([]);
   const [selectedMember, setSelectedMember] = useState("");
-  const [selectedEquipment, setSelectedEquipment] = useState("");
-  const [selectedTimeSlots, setSelectedTimeSlots] = useState([]);
   const [selectedDate, setSelectedDate] = useState("");
+  const [selectedTimeSlots, setSelectedTimeSlots] = useState([]);
   const [showPopup, setShowPopup] = useState(false);
   const [popupMessage, setPopupMessage] = useState("");
 
@@ -30,28 +29,35 @@ const ReservationForm = () => {
     fetchEquipment();
   }, []);
 
-  const handleTimeSlotChange = (slot) => {
-    if (selectedTimeSlots.includes(slot)) {
-      setSelectedTimeSlots(selectedTimeSlots.filter((s) => s !== slot));
+  const handleTimeSlotChange = (slot, equipmentId) => {
+    const existingSlot = selectedTimeSlots.find((s) => s.timeSlot === slot);
+
+    if (existingSlot) {
+      setSelectedTimeSlots(
+        selectedTimeSlots.filter((s) => s.timeSlot !== slot)
+      );
     } else {
-      setSelectedTimeSlots([...selectedTimeSlots, slot]);
+      setSelectedTimeSlots([
+        ...selectedTimeSlots,
+        { timeSlot: slot, equipmentId },
+      ]);
     }
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     const reservation = {
       memberId: parseInt(selectedMember, 10),
       reservationDate: selectedDate,
       timeSlots: selectedTimeSlots.map((slot) => ({
-        startTime: slot.padStart(5, "0") + ":00",
-        equipmentId: parseInt(selectedEquipment, 10),
+        startTime: slot.timeSlot.padStart(5, "0") + ":00",
+        equipmentId: parseInt(slot.equipmentId, 10),
       })),
     };
-  
+
     console.log("Submitted Reservation:", JSON.stringify(reservation, null, 2));
-  
+
     try {
       const response = await fetch(
         "http://localhost:5151/api/Reservation/AddReservation",
@@ -63,27 +69,28 @@ const ReservationForm = () => {
           body: JSON.stringify(reservation),
         }
       );
-  
+
       const responseText = await response.text();
-  
+
       if (!response.ok) {
         throw new Error("Error making the reservation: " + responseText);
       }
-  
+
       const popupDetails = `
         Reservation Successful!
         - Member ID: ${selectedMember}
         - Date: ${selectedDate}
-        - Time Slots: ${selectedTimeSlots.join(", ")}
-        - Equipment ID: ${selectedEquipment}
+        - Time Slots: ${selectedTimeSlots
+          .map(
+            (slot) => `${slot.timeSlot} with Equipment ID: ${slot.equipmentId}`
+          )
+          .join(", ")}
       `;
-  
+
       setPopupMessage(popupDetails);
       setShowPopup(true);
-  
-      // Reset the form fields
+
       setSelectedMember("");
-      setSelectedEquipment("");
       setSelectedTimeSlots([]);
       setSelectedDate("");
     } catch (error) {
@@ -92,7 +99,7 @@ const ReservationForm = () => {
       setShowPopup(true);
     }
   };
-  
+
   return (
     <div>
       <form onSubmit={handleSubmit}>
@@ -108,23 +115,6 @@ const ReservationForm = () => {
           required
         />
 
-        <label htmlFor="equipment">Equipment:</label>
-        <select
-          id="equipment"
-          value={selectedEquipment}
-          onChange={(e) => setSelectedEquipment(e.target.value)}
-          required
-        >
-          <option value="" disabled>
-            Select equipment
-          </option>
-          {equipment.map((equipment) => (
-            <option key={equipment.id} value={equipment.id}>
-              {equipment.name}
-            </option>
-          ))}
-        </select>
-
         <label htmlFor="date">Date:</label>
         <input
           type="date"
@@ -137,14 +127,25 @@ const ReservationForm = () => {
         <label htmlFor="timeslot">Timeslots:</label>
         <div id="timeslot" className="timeslot-grid">
           {timeslots.map((slot) => (
-            <div
-              key={slot}
-              className={`timeslot-item ${
-                selectedTimeSlots.includes(slot) ? "selected" : ""
-              }`}
-              onClick={() => handleTimeSlotChange(slot)}
-            >
-              {slot}
+            <div key={slot} className="timeslot-item">
+              <strong>{slot}</strong>
+              <select
+                onChange={(e) =>
+                  handleTimeSlotChange(slot, e.target.value)
+                }
+                value={
+                  selectedTimeSlots.find((s) => s.timeSlot === slot)?.equipmentId || ""
+                }
+              >
+                <option value="" disabled>
+                  Select Equipment
+                </option>
+                {equipment.map((equip) => (
+                  <option key={equip.id} value={equip.id}>
+                    {equip.name}
+                  </option>
+                ))}
+              </select>
             </div>
           ))}
         </div>

@@ -6,16 +6,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 form {
   background-color: #ffffff;
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 500px;
+  width: 800px;
   max-width: 90%;
+  box-sizing: border-box;
 }
 
 form h2 {
@@ -27,7 +28,7 @@ form h2 {
 
 form label {
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 8px;
   color: #555555;
 }
@@ -68,19 +69,19 @@ form button:hover {
 
 .timeslot-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
   margin: 20px 0;
 }
 
 .timeslot-item {
-  padding: 10px;
+  padding: 12px;
   text-align: center;
   font-size: 14px;
   font-weight: 500;
   background-color: #f8f9fa;
   border: 1px solid #e0e0e0;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
   user-select: none;
   transition: background-color 0.3s, color 0.3s, box-shadow 0.2s;
@@ -91,10 +92,12 @@ form button:hover {
 }
 
 .timeslot-item.selected {
-  background-color: #28a745;
+  background-color: #28a745 !important;
   color: white;
   font-weight: bold;
+  border: 2px solid #218838;
   box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
 }
 
 .popup {
@@ -112,10 +115,12 @@ form button:hover {
 
 .popup-content {
   background: white;
-  padding: 20px;
-  border-radius: 5px;
+  padding: 25px;
+  border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   text-align: center;
+  max-width: 90%;
+  width: 400px;
 }
 
 .popup-content p {
